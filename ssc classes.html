@@ -1,0 +1,2911 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>eLEARNING - eLearning HTML Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
+        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+            <h2 class="m-0 text-primary"><i class="fa fa-book me-3"></i>Pragati Path</h2>
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link active">Home</a>
+                <a href="about.html" class="nav-item nav-link">About</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Classes</a>
+                    <div class="dropdown-menu fade-down m-0">
+                        <a href="ctet classes.html" class="dropdown-item">Ctet Batches</a>
+                        <a href="ssc classes.html" class="dropdown-item">Ssc Batches</a>
+                        <a href="railway classes.html" class="dropdown-item">Railway Batches</a>
+                        <a href="bank classes.html" class="dropdown-item">Banking Batches</a>
+                        <a href="defence classes.html" class="dropdown-item">Defence Batches</a>
+                        <a href="bssc classes.html" class="dropdown-item">Bssc Batches</a>
+                        <a href="foundation.html" class="dropdown-item">Foundation Batches</a>
+                        <a href="special batches.html" class="dropdown-item">Special Batches</a>
+                    </div>
+                </div>
+
+                <a href="gallery.html" class="nav-item nav-link">Gallery</a>
+                <a href="contact.html" class="nav-item nav-link">Contact</a>
+            </div>
+            <a href="" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Call Now<i
+                    class="fa fa-arrow-right ms-3"></i></a>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Header Start -->
+    <div class="container-fluid bg-primary py-5 mb-5 page-header">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 text-center">
+                    <h1 class="display-3 text-white animated slideInDown">SSC CLASSES</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+
+
+    <!-- Courses with tab wise Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3">Courses</h6>
+                <h1 class="mb-5">All SSC BATCHES</h1>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="mts-tab" data-bs-toggle="tab" data-bs-target="#mts"
+                            type="button" role="tab" aria-controls="home" aria-selected="true">MTS</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="steno-tab" data-bs-toggle="tab" data-bs-target="#steno"
+                            type="button" role="tab" aria-controls="profile" aria-selected="false">Steno(C & D)</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="gd-tab" data-bs-toggle="tab" data-bs-target="#gd" type="button"
+                            role="tab" aria-controls="contact" aria-selected="false">GD</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="chsl-tab" data-bs-toggle="tab" data-bs-target="#chsl" type="button"
+                            role="tab" aria-controls="contact" aria-selected="false">CHSL</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="cpo-tab" data-bs-toggle="tab" data-bs-target="#cpo" type="button"
+                            role="tab" aria-controls="contact" aria-selected="false">CPO</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="cgl-tab" data-bs-toggle="tab" data-bs-target="#cgl" type="button"
+                            role="tab" aria-controls="contact" aria-selected="false">CGL</button>
+                    </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                    <!-- mts tab -->
+                    <div class="tab-pane fade show active" id="mts" role="tabpanel" aria-labelledby="mts-tab">
+                        <div class="row g-4 justify-content-center">
+                            <!-- batch1 -->
+                            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="course-item bg-light">
+                                    <div class="position-relative overflow-hidden">
+                                        <img class="img-fluid" src="img/course-1.jpg" alt="">
+                                        <div
+                                            class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+
+                                            <a href="tel:+91 7461918110"
+                                                class="flex-shrink-0 btn btn-sm btn-primary px-3"
+                                                style="border-radius: 30px 30px 30px 30px;">Join Now</a>
+                                        </div>
+                                    </div>
+                                    <div class="text-center p-4 pb-0">
+                                        <h5 class="mb-4">SSC MTS Lakshya Batch 2024</h5>
+                                        <div class="mb-3">
+                                            <p>Subjects :- Math, GK, GS, Reasoning, English</p>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex border-top">
+                                        <small class="flex-fill text-center border-end py-2"><i
+                                                class="fa fa-user-tie text-primary me-2"></i>Sudhir Sir</small>
+                                        <small class="flex-fill text-center border-end py-2"><i
+                                                class="fa fa-clock text-primary me-2"></i>3 Months</small>
+                                        <small class="flex-fill text-center py-2"><i
+                                                class="fa fa-user text-primary me-2"></i>30
+                                            Students</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- batch2 -->
+                            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="course-item bg-light">
+                                    <div class="position-relative overflow-hidden">
+                                        <img class="img-fluid" src="img/course-1.jpg" alt="">
+                                        <div
+                                            class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+
+                                            <a href="tel:+91 7461918110"
+                                                class="flex-shrink-0 btn btn-sm btn-primary px-3"
+                                                style="border-radius: 30px 30px 30px 30px;">Join Now</a>
+                                        </div>
+                                    </div>
+                                    <div class="text-center p-4 pb-0">
+                                        <h5 class="mb-4">SSC MTS Eklavya Batch 2024</h5>
+                                        <div class="mb-3">
+                                            <p>Subjects :- Math, GK, GS, Reasoning, English</p>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex border-top">
+                                        <small class="flex-fill text-center border-end py-2"><i
+                                                class="fa fa-user-tie text-primary me-2"></i>Sudhir Sir</small>
+                                        <small class="flex-fill text-center border-end py-2"><i
+                                                class="fa fa-clock text-primary me-2"></i>3 Months</small>
+                                        <small class="flex-fill text-center py-2"><i
+                                                class="fa fa-user text-primary me-2"></i>30
+                                            Students</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- batch3 -->
+                            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="course-item bg-light">
+                                    <div class="position-relative overflow-hidden">
+                                        <img class="img-fluid" src="img/course-1.jpg" alt="">
+                                        <div
+                                            class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+
+                                            <a href="tel:+91 7461918110"
+                                                class="flex-shrink-0 btn btn-sm btn-primary px-3"
+                                                style="border-radius: 30px 30px 30px 30px;">Join Now</a>
+                                        </div>
+                                    </div>
+                                    <div class="text-center p-4 pb-0">
+                                        <h5 class="mb-4">SSC MTS Foundation Batch</h5>
+                                        <div class="mb-3">
+                                            <p>Subjects :- Math, GK, GS, Reasoning, English</p>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex border-top">
+                                        <small class="flex-fill text-center border-end py-2"><i
+                                                class="fa fa-user-tie text-primary me-2"></i>Sudhir Sir</small>
+                                        <small class="flex-fill text-center border-end py-2"><i
+                                                class="fa fa-clock text-primary me-2"></i>3 Months</small>
+                                        <small class="flex-fill text-center py-2"><i
+                                                class="fa fa-user text-primary me-2"></i>60
+                                            Students</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- below all batches -->
+                        <div class="text-center wow fadeInUp mt-5" data-wow-delay="0.1s">
+                            <h6 class="section-title bg-white text-center text-primary px-3">SSC Exams Details</h6>
+                            <h1 class="mb-5">MTS Exams Details</h1>
+                        </div>
+                        <!-- about mts -->
+                        <h3>About SSC MTS</h3>
+                        <p class="px-3">SSC MTS - Staff Selection Commission Multitasking Staff or SSC
+                            MTS exam
+                            is a
+                            non-technical examination conducted by SSC. The commission releases MTS exam notification
+                            annually to
+                            conduct recruitment for various non-technical posts.</p>
+                        <!-- various posts -->
+                        <h3 class="mt-2">Various Posts</h3>
+                        <ul>
+                            <li>Peon</li>
+                            <li>Gardner</li>
+                            <li>Daftary</li>
+                            <li>Jamadar</li>
+                            <li>Junior Gestetner Operator</li>
+                            <li>Chowkidar</li>
+                            <li>Safaiwala, etc.</li>
+                        </ul>
+                        <!-- eligibility -->
+                        <h3 class="mt-3">SSC MTS Eligibility</h3>
+                        <p class="px-3">The SSC MTS eligibility criteria are the conditions determined by the SSC; which
+                            the
+                            candidates
+                            are required to fulfill mandatorily to be eligible for the SSC Multi Tasking Staff
+                            examination.</p>
+
+                        <p class="px-3">Candidates willing to appear for SSC MTS examination must meet the
+                            following eligibility
+                            requirements:</p>
+
+                        <ol>
+                            <li><span class="fw-bold">Educational Qualifications:</span> Candidates must hold the
+                                essential educational qualification
+                                i.e, Matriculation or 10th class pass from a recognized Board/
+                                University before applying for the GD post.</li>
+                            <li><span class="fw-bold">Nationality:</span> The candidate must be an Indian citizen. For
+                                migrated candidates, they must
+                                submit domicile/ PRC against his/ her state/ UT.</li>
+                            <li><span class="fw-bold">Age Limit:</span> The candidates for SSC GD should
+                                fulfil the age requirement of
+                                18-23 years.</li>
+                            <li><span class="fw-bold">Age Relaxation:</span> There is an age relaxation in the upper age
+                                limit for SC, ST, OBC,
+                                Ex-Servicemen and other categories of persons based on the Government’s orders.</li>
+                        </ol>
+
+
+                        <h4>SSC MTS Age Limit & Relaxation</h4>
+
+                        <p class="px-3">Candidates who wish to appear for SSC MTS exam must be not less than 18
+                            years of age and
+                            not more than 25 years of age.
+
+                            SSC MTS Lower Age limit – 18 years
+                            SSC MTS Upper Age Limit – 25 years
+
+                            However, for candidates belonging to reserved categories such as PwD, SC/ST and OBC
+                            categories,
+                            there is an upper age limit relaxation being given by the commission.</p>
+
+                        <p class="px-3">The table given below shows the age limit extensions given to different category
+                            candidates.
+                        </p>
+                        <!-- age relaxation table here -->
+                        <table class="table">
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th scope="col">Categories</th>
+                                    <th scope="col">Relaxation</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td scope="row">General</td>
+                                    <td>No relaxation</td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">OBC</td>
+                                    <td>3 Years</td>
+
+                                </tr>
+                                <tr>
+                                    <td scope="row">SC/ST</td>
+                                    <td>5 Years</td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">PwD</td>
+                                    <td> 10 Years, OBC – 13 years, SC/ST – 15 years</td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">Ex-Serviceman</td>
+                                    <td>3 years, OBC – 6 years, SC/ST – 8 years</td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">J&K Domiciled</td>
+                                    <td>3 years, OBC – 8 years, SC/ST – 10 years</td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">Widows /Divorced Women /Women who are judicially separated but not
+                                        remarried</td>
+                                    <td>Up to 35 years, OBC- Up to 38 years, SC/ST – Up to 40 Years</td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">Defence Personnel</td>
+                                    <td> 3 years, OBC – 6 years, SC/ST – 8 years</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+
+                        <p class="px-3">There are other categories as well that are allowed certain relaxation on the
+                            age limit for
+                            MTS exam. Candidates can check the official SSC MTS notification for further details.</p>
+
+
+
+                        <!-- mts notification here -->
+                        <h3 class="mt-4">SSC MTS Notification</h3>
+                        <p class="px-3"> The SSC MTS recruitment is announced by the Commission with the release of SSC
+                            Multitasking Staff notification. Candidates willing to appear for SSC MTS exam must keep
+                            abreast about the details mentioned in the
+                            SSC MTS notification.</p>
+
+                        <p class="px-3">Check, SSC MTS full form and relevant details.</p>
+
+                        <h3>SSC MTS Application Form & Registration</h3>
+                        <p class="px-3">
+                            Candidates can fill the application form for SSC MTS exam on the SSC official website.
+                            For successful submission of the MTS application form candidates have to go through the
+                            below-mentioned steps.</p>
+
+                        <p class="px-3">Aspirants who wish to appear for SSC MTS have to fill the SSC MTS
+                            Application form, and they have to follow the steps given below to fill the SSC MTS online
+                            application form.</p>
+
+                        <!-- mts registration here -->
+                        <h4>SSC MTS Registration</h4>
+                        <ol>
+
+                            <li> Visit the SSC Official website.</li>
+                            <li>Click on the ‘Notice’ tab and search for Application Form.</li>
+                            <li>Read the instructions carefully before filling the application form.</li>
+                            <li>Provide the necessary details such as Name, Date of Birth, mail ID, Phone number etc.
+                                these details are necessary for the completion of the registration process.</li>
+                            <li>A registration Id and Password will be generated and sent to the registered mobile
+                                number and mail ID.</li>
+
+                        </ol>
+
+                        <!-- mts application here -->
+                        <h4>SSC MTS Application</h4>
+                        <ol>
+                            <li>With the Registration Id and Password provided, login to the registered account on
+                                the official website to complete the application form filling.</li>
+                            <li>Provide the necessary details asked such as Personal and education details.</li>
+                            <li>Upload the education certificates, coloured photograph and signature.</li>
+                            <li>Set up the security question as per your choice.</li>
+                            <li>Move to the payment page to pay the SSC MTS application fee.</li>
+                        </ol>
+
+                        <!-- mts fee here -->
+                        <h4>SSC MTS Application Fees</h4>
+                        <ol>
+                            <li> The SSC MTS application fees are paid as per the category given in the application
+                                form.
+                            </li>
+                            <li> Payment of the SSC MTS registration fee can be done both online and offline.</li>
+                            <li> Once the payment is done, a confirmation mail is received on the registered mail ID.
+                            </li>
+                        </ol>
+
+                        <!-- fee relaxation table here -->
+                        <table class="table">
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th scope="col">Categories</th>
+                                    <th scope="col">Relaxation</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td scope="row">UR/OBC/EWS</td>
+                                    <td>100/-</td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">SC/ST/PwD/Ex-Serviceman</td>
+                                    <td>Exempted</td>
+
+                                </tr>
+                                <tr>
+                                    <td scope="row">Women of all Category</td>
+                                    <td>Exempted</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <!-- mts exam pattern here -->
+                        <h3>SSC MTS Exam Pattern</h3>
+                        <p class="px-3">Candidates willing to appear for SSC MTS recruitment exam must be well versed
+                            with the latest exam pattern of SSC MTS.</p>
+
+                        <p class="px-3"> The SSC MTS exam pattern is decided by the commission itself. Any changes in
+                            the exam pattern are intimated to candidates through official notice.</p>
+
+                        <p class="px-3">The SSC MTS exam is conducted for two papers – SSC MTS Paper I and SSC MTS
+                            Paper-II.</p>
+
+                        <p class="px-3">The SSC Multi-Tasking Staff exam pattern highlights are given below:</p>
+
+                        <!-- exam pattern table here -->
+                        <table class="table">
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th scope="col">Particulars</th>
+                                    <th scope="col">SSC MTS Paper I Exam Pattern</th>
+                                    <th scope="col"> SSC MTS Paper-II Exam Pattern</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td scope="row">Mode of the Examination</td>
+                                    <td>Online Exam (computer-based)</td>
+                                    <td>Offline exam (pen-and-paper)</td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">Type of exam </td>
+                                    <td>Objective (MCQ) questions</td>
+                                    <td>Subjective (Descriptive) Question</td>
+
+                                </tr>
+                                <tr>
+                                    <td scope="row">Number of sections</td>
+                                    <td>Four</td>
+                                    <td>One</td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">Subjects</td>
+                                    <td>General Intelligence & Reasoning, General English, Numerical Aptitude and
+                                        General Awareness</td>
+                                    <td>Short essay/letter</td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">Duration of Exam</td>
+                                    <td>
+                                        <p>All candidates – 90 minutes</p>
+                                        <p>PwD candidates – 120 minutes</p>
+                                    </td>
+                                    <td>
+                                        <p>All Candidates -30 minutes</p>
+                                        <p> PwD candidates – 40 minutes</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Number of questions</td>
+                                    <td>100</td>
+                                    <td>1</td>
+                                </tr>
+                                <tr>
+                                    <td>Total marks</td>
+                                    <td>100</td>
+                                    <td>50</td>
+                                </tr>
+                                <tr>
+                                    <td>Language of paper</td>
+                                    <td>English and Hindi</td>
+                                    <td>English, Hindi and other regional languages</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <!-- mts syllabus here -->
+                        <h3>SSC MTS Exam Syllabus</h3>
+                        <p class="px-3">Now that candidates are aware of the SSC MTS Exam Paper Pattern, it is important
+                            to understand the SSC MTS Syllabus as well.</p>
+
+                        <p class="px-3">The Staff selection commission releases the SSC MTS syllabus along with the
+                            notification every year. The syllabus of SSC MTS exam for both paper I and Paper II remains
+                            largely the same every year.</p>
+
+                        <p class="px-3">The SSC MTS syllabus for both paper I and Paper II as prescribed in the
+                            notification of SSC MTS exam is given below:</p>
+                        <div class="mt-2">
+                            <img src="img/syllabus12.png" class="img-fluid" alt="Responsive image">
+                            <p>Detailed information regarding SSC MTS syllabus and exam pattern is discussed in the
+                                given link.</p>
+                        </div>
+
+                        <!-- mts admit card -->
+                        <h3>SSC MTS Admit Card</h3>
+                        <p class="px-3">The Staff Selection Commission releases the SSC MTS Admit Card one week before
+                            the SSC Multi Tasking Staff examination.</p>
+
+                        <p class="px-3">The admit card for SSC MTS exam is released region-wise on the SSC regions
+                            official websites. Candidates, in order to download the SSC MTS Admit Card, have to log in
+                            to their registered account on the official website.</p>
+
+                        <p class="px-3">Candidates can check SSC MTS Admit Card page to know the important dates
+                            pertaining to admit card, the steps to download the Admit Card for MTS exam and for
+                            region-wise SSC website links.</p>
+
+                        <h3>SSC MTS Result</h3>
+                        <p class="px-3">The result for SSC MTS exam is published on the SSC website and notified through
+                            an official notification.</p>
+
+                        <p class="px-3">Staff Selection Commission announced the Result of SSC MTS.</p>
+
+                        <p class="px-3">The Commission releases separate results for SSC MTS exam conducted for age
+                            Group 18 to 25
+                            years
+                            and 18 to 27 years group in the form of merit list. Candidates short-listed against the
+                            age-group of 18-27 years will also be considered for selection in the age-group of 18-25
+                            years
+                            and vice versa in the final result depending on the age, merit and State/ UT preference of
+                            the
+                            candidates.</p>
+
+                        <p class="px-3">The SSC MTS merit list or result contains the following details:</p>
+
+                        <ol>
+                            <li><small>Name and Stage of the Examination</small></li>
+                            <li><small>Name and roll number of qualified candidates</small></li>
+                            <li><small>Categories of qualifying candidates</small></li>
+                        </ol>
+                        <p class="px-3">Also, separate results for different stages of SSC MTS exam are released. Check
+                            SSC MTS
+                            Result
+                            for further information.</p>
+
+                        <!-- mts cut off -->
+                        <h3 class="mt-5">SSC MTS Cut Off</h3>
+                        <p class="px-3">The Commission decides the minimum Cut off marks for SSC MTS examination.
+                            Vacancies for
+                            Multi-Tasking Staff (Non-Technical) Examination have been received in two age groups
+                            i.e.
+                            (i) 18 to 25 years and (ii) 18 to 27 years.
+                            Therefore, age Group-wise, State or Union Territories wise and category-wise cut-offs have
+                            been
+                            fixed.</p>
+
+                        <p class="px-3">Candidates for each State or Union Territories will be finally selected based on
+                            their
+                            performance in SSC MTC paper Paper-I, preference of State or UT exercised by them in the
+                            online
+                            Application Form, subject to their meeting basic qualifying standards in SSC MTS Paper-II.
+                        </p>
+
+                        <p class="px-3">As per the commission, the qualifying marks in Paper-II have been fixed as –</p>
+
+                        <ol>
+                            <li><small>20 marks i.e. 40% for Unreserved category</small></li>
+                            <li><small>17.5 marks i.e. 35% for all other reserved categories.</small></li>
+                        </ol>
+                        <p class="px-3">To know the detailed category-wise cut off marks go through SSC MTS Cut Off page
+                            linked here.
+                        </p>
+
+                        <!-- mts highlights -->
+                        <h3 class="mt-5">SSC MTS Exam Highlights</h3>
+                        <table class="table px-3">
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th scope="col">Exam Name</th>
+                                    <th scope="col">SSC MTS Exam – SSC Multitasking Staff (non-Technical) Exam</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td scope="row">Exam Level</td>
+                                    <td>All India Level</td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">Exam Frequency </td>
+                                    <td>Once a year</td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">Exam Purpose</td>
+                                    <td>Selection of candidates for Group-C non-gazetted, non-ministerial posts</td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">Official Website</td>
+                                    <td><a href="http://ssc.nic.in" target="_blank">http://ssc.nic.in</a></td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">Exam Mode</td>
+                                    <td>
+                                        <p>Paper-I: Online Computer Based Mode</p>
+                                        <p>paper-II: Offline Pen and Paper Based Mode</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Exam Duration</td>
+                                    <td>
+                                        <p>Paper -I: 90 minutes</p>
+                                        <p>Paper-II: 30 minutes</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Exam Language</td>
+                                    <td>English, Hindi and other regional languages</td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+
+                        <p class="px-3">Keep checking the page for updated information related to SSC MTS Exam
+                            2024-2025.</p>
+
+                    </div>
+
+                    <!-- mts end here -->
+                    <!-- ************************************************************ -->
+                    <!-- steno tab -->
+                    <div class="tab-pane fade" id="steno" role="tabpanel" aria-labelledby="steno-tab">
+                        <!-- list of steno batches here -->
+                        <div class="row g-4 justify-content-center">
+                            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="course-item bg-light">
+                                    <div class="position-relative overflow-hidden">
+                                        <img class="img-fluid" src="img/course-1.jpg" alt="">
+                                        <div
+                                            class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                                            <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end"
+                                                style="border-radius: 30px 0 0 30px;">Read More</a>
+                                            <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3"
+                                                style="border-radius: 0 30px 30px 0;">Join Now</a>
+                                        </div>
+                                    </div>
+                                    <div class="text-center p-4 pb-0">
+                                        <h5 class="mb-4">Web Design & Development Course for Beginners</h5>
+                                        <div class="mb-3">
+                                            <small class="fa fa-star text-primary"></small>
+                                            <small class="fa fa-star text-primary"></small>
+                                            <small class="fa fa-star text-primary"></small>
+                                            <small class="fa fa-star text-primary"></small>
+                                            <small class="fa fa-star text-primary"></small>
+                                            <small>(123)</small>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex border-top">
+                                        <small class="flex-fill text-center border-end py-2"><i
+                                                class="fa fa-user-tie text-primary me-2"></i>John Doe</small>
+                                        <small class="flex-fill text-center border-end py-2"><i
+                                                class="fa fa-clock text-primary me-2"></i>1.49 Hrs</small>
+                                        <small class="flex-fill text-center py-2"><i
+                                                class="fa fa-user text-primary me-2"></i>30
+                                            Students</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="course-item bg-light">
+                                    <div class="position-relative overflow-hidden">
+                                        <img class="img-fluid" src="img/course-1.jpg" alt="">
+                                        <div
+                                            class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                                            <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end"
+                                                style="border-radius: 30px 0 0 30px;">Read More</a>
+                                            <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3"
+                                                style="border-radius: 0 30px 30px 0;">Join Now</a>
+                                        </div>
+                                    </div>
+                                    <div class="text-center p-4 pb-0">
+                                        <h5 class="mb-4">Web Design & Development Course for Beginners</h5>
+                                        <div class="mb-3">
+                                            <small class="fa fa-star text-primary"></small>
+                                            <small class="fa fa-star text-primary"></small>
+                                            <small class="fa fa-star text-primary"></small>
+                                            <small class="fa fa-star text-primary"></small>
+                                            <small class="fa fa-star text-primary"></small>
+                                            <small>(123)</small>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex border-top">
+                                        <small class="flex-fill text-center border-end py-2"><i
+                                                class="fa fa-user-tie text-primary me-2"></i>John Doe</small>
+                                        <small class="flex-fill text-center border-end py-2"><i
+                                                class="fa fa-clock text-primary me-2"></i>1.49 Hrs</small>
+                                        <small class="flex-fill text-center py-2"><i
+                                                class="fa fa-user text-primary me-2"></i>30
+                                            Students</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="course-item bg-light">
+                                    <div class="position-relative overflow-hidden">
+                                        <img class="img-fluid" src="img/course-1.jpg" alt="">
+                                        <div
+                                            class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                                            <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end"
+                                                style="border-radius: 30px 0 0 30px;">Read More</a>
+                                            <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3"
+                                                style="border-radius: 0 30px 30px 0;">Join Now</a>
+                                        </div>
+                                    </div>
+                                    <div class="text-center p-4 pb-0">
+                                        <h5 class="mb-4">Web Design & Development Course for Beginners</h5>
+                                        <div class="mb-3">
+                                            <small class="fa fa-star text-primary"></small>
+                                            <small class="fa fa-star text-primary"></small>
+                                            <small class="fa fa-star text-primary"></small>
+                                            <small class="fa fa-star text-primary"></small>
+                                            <small class="fa fa-star text-primary"></small>
+                                            <small>(123)</small>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex border-top">
+                                        <small class="flex-fill text-center border-end py-2"><i
+                                                class="fa fa-user-tie text-primary me-2"></i>John Doe</small>
+                                        <small class="flex-fill text-center border-end py-2"><i
+                                                class="fa fa-clock text-primary me-2"></i>1.49 Hrs</small>
+                                        <small class="flex-fill text-center py-2"><i
+                                                class="fa fa-user text-primary me-2"></i>30
+                                            Students</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-center wow fadeInUp mt-5" data-wow-delay="0.1s">
+                            <h6 class="section-title bg-white text-center text-primary px-3">SSC Exams Details</h6>
+                            <h1 class="mb-5">Stenographer Exams Details</h1>
+                        </div>
+                        <h3>SSC Stenographer Recruitment</h3>
+                        <p class="px-3">SSC conducts the Stenographer exam annually. It is an All India level
+                            examination that
+                            recruits
+                            candidates for Stenographer Grade C (non-gazetted post) and Grade D posts in various
+                            departments, ministries and organisations of the Government of India.</p>
+
+                        <p class="px-3"> Below given are the details regarding SSC Stenographer Vacancy and Salary for
+                            latest
+                            Stenographer recruitment.</p>
+
+                        <h3>SSC Stenographer Salary</h3>
+                        <p class="px-3">The commission sets the salary for SSC Stenographers. SSC Stenographers being a
+                            government
+                            job
+                            have good salary structure with the possibility of increment.</p>
+
+                        <p class="px-3">SSC Stenographers salary varies as per the Grades. Apart from the salaries for
+                            both the
+                            grades,
+                            SSC Stenographers are entitled to the following allowances:</p>
+
+                        <ul>
+                            <li>House Rent Allowance</li>
+                            <li>Dearness Allowance</li>
+                            <li>Transport Allowance</li>
+                        </ul>
+                        <p class="px-3">The grade-wise salary structure for Stenographers Grade C and Grade D is
+                            discussed in the SSC
+                            Stenographer Salary page.</p>
+
+                        <p class="px-3">Candidates can also know the SSC Salary structure and basic-pay of other
+                            examinations and
+                            posts
+                            under SSC on the given link.</p>
+
+                        <h3>SSC Stenographer Eligibility</h3>
+                        <p class="px-3">The Staff selection commissions decide the minimum requirements or the
+                            Stenographer
+                            eligibility
+                            criteria that the candidates have to fulfil if they wish to appear for the exam.</p>
+
+                        <p class="px-3">The SSC Stenographer Eligibility criteria are as follows:</p>
+                        <ol>
+                            <li>Nationality</li>
+                            <li>Educational Qualification</li>
+                            <li>SSC Stenographer Age Limit</li>
+                        </ol>
+                        <h4>SSC Stenographer Eligibility – Nationality</h4>
+
+                        <p class="px-3">Candidates who want to write SSC Stenographer exam must fulfil the following
+                            criteria of
+                            nationality to be eligible:</p>
+                        <div class="card  w-lg-50 w-sm-100 w-md-100 border-0 rounded mb-3"
+                            style="background-color: rgb(151, 213, 228);">
+                            <div class="card-content p-4">
+                                <p class="px-3">Any candidates who are a</p>
+                                <ul>
+                                    <li>Citizen of India/subject of Nepal/ Citizen of Bhutan</li>
+                                    <li>Tibetan refugee who came and settled in India before January 1, 1962</li>
+                                    <li>A person of Indian origin migrated from Pakistan, Myanmar, Sri Lanka, East
+                                        African
+                                        countries of Uganda, Kenya, the United Republic of Tanzania, Zambia, Zaire,
+                                        Malawi,
+                                        Ethiopia and Vietnam with the intention of permanently settling in India.</li>
+                                </ul>
+                                Provided that any candidate apart for the Indian citizens have to present a certificate
+                                of eligibility issued by the Indian Government.
+                            </div>
+                        </div>
+
+                        <h3>SSC Stenographer Eligibility- Educational Qualification</h3>
+
+                        <p class="px-3">Candidates who have completed or passed class 12th or equivalent examination
+                            from a
+                            government
+                            recognized board or university are eligible to apply for the SSC Stenographer Exam.</p>
+
+                        <h3>SSC Stenographer Age Limit</h3>
+
+                        <p class="px-3">Candidates fulfilling the below-mentioned age limits can appear for SSC
+                            Stenographer
+                            examination.</p>
+
+
+
+                        <!-- steno age limit table here -->
+                        <div class="card w-60 border-0 rounded mb-3">
+                            <div class="card-content p-4">
+                                <table class="table">
+                                    <thead class="thead-dark">
+                                        <tr>
+                                            <th scope="col">Stenographer Posts</th>
+                                            <th scope="col">SSC Stenographer Age limit</th>
+                                            <th scope="col">Years</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td scope="row">Stenographer Grade C</td>
+                                            <td>
+                                                <p>SSC Stenographer Lower age limit</p>
+                                                <p>SSC Stenographer Upper age limit</p>
+                                            </td>
+                                            <td>
+                                                <p>18 years</p>
+                                                <p>30 years</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td scope="row">Stenographer Grade C</td>
+                                            <td>
+                                                <p>SSC Stenographer Lower age limit</p>
+                                                <p>SSC Stenographer Upper age limit</p>
+                                            </td>
+                                            <td>
+                                                <p>18 years</p>
+                                                <p>30 years</p>
+                                            </td>
+                                        </tr>
+
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                        <p class="px-3">The upper age limit mentioned above for different posts of SSC Stenographer exam
+                            have certain
+                            relaxations for reserved categories candidates. The details for the same is given below:</p>
+
+                        <!-- table here -->
+                        <table class="table">
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th scope="col">Categories</th>
+                                    <th scope="col">Relaxation</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td scope="row">General</td>
+                                    <td>No relaxation</td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">OBC</td>
+                                    <td>3 Years</td>
+
+                                </tr>
+                                <tr>
+                                    <td scope="row">SC/ST</td>
+                                    <td>5 Years</td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">PwD (General)</td>
+                                    <td> General-10 Years, OBC – 13 years, SC/ST – 15 Years</td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">Ex-Serviceman</td>
+                                    <td>3 years</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <p class="px-3">Detailed SSC Stenographer eligibility conditions are mentioned in the official
+                            notification
+                            of
+                            SSC Stenographer exam.</p>
+
+                        <p class="px-3">Candidates willing to appears for other examinations held by the commission can
+                            go through
+                            the
+                            SSC Eligibility for detailed information.</p>
+
+                        <h3>SSC Stenographer Application Form and Registration</h3>
+                        <p class="px-3">The details of SSC Stenographer application and registration are given in the
+                            notification.
+                            Candidates willing to appear for the stenographer exam have to apply online for the same.
+                        </p>
+
+                        <p class="px-3">Candidates are given a one month time period to apply or register for
+                            Stenographer examination.</p>
+
+
+
+                        <p class="px-3">Candidates can fill the application form for SSC Stenographer exam on the
+                            SSC Official
+                            Website. For successful submission of the Stenographer application form, candidates have to
+                            go
+                            through the below-mentioned steps.</p>
+                        <h4>SSC Stenographer Registration</h4>
+
+                        <ol>
+
+                            <li>Visit the SSC Official website.</li>
+                            <li>Search for Application Form and read the instructions carefully before filling the
+                                application
+                                form.</li>
+                            <li>Provide the necessary details such as Name, Date of Birth, mail ID, Phone number etc.
+                                these
+                                details to complete the registration process and generate Id and Password for further
+                                processing.</li>
+                        </ol>
+
+                        <h4>SSC Stenographer Application</h4>
+                        <ol>
+                            <li>With the Registration Id and Password provided, login to the registered account</li>
+                            <li> Provide Personal and education details asked</li>
+                            <li>Upload the education certificates, coloured photograph and signature.</li>
+                            <li>Move to the payment page to pay the SSC Stenographer application fee.</li>
+                        </ol>
+
+                        <h4>SSC Stenographer Application Fees</h4>
+                        <ol>
+                            <li> The SSC Stenographer application fees are paid as per the category given in the
+                                application
+                                form. Payment of the SSC Stenographer registration fee can be done both online and
+                                offline.</li>
+                            <li>Once the payment is done, a confirmation mail is received on the registered mail ID.
+                            </li>
+                        </ol>
+
+                        <!-- fee relaxation table here -->
+                        <div class="card w-60 border-0 rounded mb-3">
+                            <div class="card-content p-4">
+                                <table class="table">
+                                    <thead class="thead-dark">
+                                        <tr>
+                                            <th scope="col">Categories</th>
+                                            <th scope="col">Relaxation</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td scope="row">UR/OBC/EWS</td>
+                                            <td>100/-</td>
+                                        </tr>
+                                        <tr>
+                                            <td scope="row">SC/ST/PwD/Ex-Serviceman</td>
+                                            <td>Exempted</td>
+
+                                        </tr>
+                                        <tr>
+                                            <td scope="row">Women of all Category</td>
+                                            <td>Exempted</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                        <p class="px-3">The registration, online application form filling procedure for all SSC
+                            examination are the
+                            same. Candidates can go through the detailed procedure on the SSC Online Form page linked
+                            here.</p>
+
+                        <h3>SSC Stenographer Exam Pattern</h3>
+                        <p class="px-3">The exam pattern of SSC Stenographer exam is decided by the commission itself.
+                        </p>
+                        <p class="px-3">The SSC Stenographer selection process is divided into two stages.</p>
+                        <ol>
+                            <li>
+                                Computer-based Test
+                            </li>
+                            <li>Skill Test For Stenography</li>
+                        </ol>
+                        <p class="px-3">The exam pattern for SSC Stenographer CBT test is as given below:</p>
+
+                        <h4>Scheme of Examination for SSC Stenographer 2023</h4>
+                        <p class="px-3">The details of the Computer Based Examination are mentioned below:</p>
+
+                        <table class="table">
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th scope="col">Part</th>
+                                    <th scope="col">Subject</th>
+                                    <th scope="col">No. of Questions</th>
+                                    <th scope="col">Maximum Marks</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td scope="row">I</td>
+                                    <td> General Intelligence & Reasoning</td>
+                                    <td> 50</td>
+                                    <td> 50</td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">II</td>
+                                    <td> General Awareness</td>
+                                    <td> 50</td>
+                                    <td> 50</td>
+
+                                </tr>
+                                <tr>
+                                    <td scope="row">III</td>
+                                    <td> English Language and Comprehension</td>
+                                    <td> 100</td>
+                                    <td> 100</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <p class="px-3"><span class="fw-bold px-3">Total Duration of the Exam:</span> 2 Hours (2 Hours
+                            and 40 Minutes
+                            for
+                            the candidates eligible
+                            for
+                            scribe)</p>
+
+                        <p class="px-3">The Pattern of the second stage of the SSC Stenographer exam i.e. the SSC
+                            Stenographer Skill
+                            Test is discussed in detail in the syllabus page, the link for the same is given below.</p>
+
+                        <p class="px-3">Check SSC Exam pattern to know the latest topic-wise syllabus and examination
+                            pattern of all
+                            other exams.</p>
+
+                        <h4>SSC Stenographer Syllabus</h4>
+                        <p class="px-3">Like the exam pattern, the Syllabus for SSC Stenographer exam is also decided by
+                            the
+                            Selection
+                            Commission only.</p>
+
+                        <p class="px-3">The Staff selection commission releases the SSC Stenographer syllabus along with
+                            the
+                            notification every year. The Syllabus of SSC Stenographer exam for both CBT and Skill test
+                            remains largely the same every year.</p>
+
+                        <p class="px-3">The Syllabus for SSC Stenographer Computer-based exam as prescribed in the
+                            notification is
+                            given
+                            below.</p>
+
+                        <h3>Indicative Syllabus for Computer Based Mode Examination</h3>
+
+                        <ol type="a">
+                            <li><span class="fw-bold">General Intelligence & Reasoning:</span> It would include
+                                questions of both verbal and
+                                non-verbal type. The test will include questions on analogies, similarities and
+                                differences, space visualization, problem solving, analysis, judgment, decision making,
+                                visual memory, discriminating observation, relationship concepts, arithmetical
+                                reasoning, verbal and figure classification, arithmetical number series, non-verbal
+                                series etc. The test will also include questions designed to test the candidate’s
+                                abilities to deal with abstract ideas and symbols and their relationship, arithmetical
+                                computation and other analytical functions.</li>
+                            <li><span class="fw-bold">General Awareness:</span> Questions will be designed to test the
+                                ability of the candidates’
+                                general awareness of the environment around him and its application to society.
+                                Questions will also be designed to test the knowledge of current events and of such
+                                matters of everyday observation and experience in their scientific aspects as may be
+                                expected of an educated person. The test will also include questions relating to India
+                                and its neighboring countries especially pertaining to Sports, History, Culture,
+                                Geography, Economic scene, General Polity including Indian Constitution, and Scientific
+                                Research etc. These questions will be such that they do not require a special study of
+                                any discipline.</li>
+                            <li>
+                                For VH candidates of 40% and above visual disability, there will be no component of
+                                Maps/Graphs/Diagrams/Statistical Data in the General Intelligence & Reasoning/ General
+                                Awareness Paper.
+                            </li>
+                            <li>
+                                <span class="fw-bold">English Language & Comprehension:</span> In addition to the
+                                testing of candidates’
+                                understanding of the English Language, its vocabulary, grammar, sentence structure,
+                                synonyms, antonyms and its correct usage, etc., his/ her writing ability would also be
+                                tested.
+                            </li>
+                        </ol>
+
+                        <h3>SSC Stenographer Admit Card</h3>
+                        <p class="px-3">Admit card for SSC Stenographer Exam 2022 was released on 9th November 2022 on
+                            the official
+                            regional websites of SSC.</p>
+
+                        <p class="px-3">The Staff Selection Commission releases the SSC Stenographer Admit Card one week
+                            before the SSC
+                            Stenographer examination.</p>
+
+                        <p class="px-3">The admit card for SSC Stenographer exam is released region-wise on the SSC
+                            regions official
+                            websites. Candidates, in order to download the SSC Stenographer Admit Card, have to log in
+                            to
+                            their registered account on the official website.</p>
+
+                        <p class="px-3">Candidates appearing for SSC Stenographer 203 examination have to follow the
+                            given steps to
+                            download the SSC Stenographer admit card.</p>
+
+                        <h4>Steps to download SSC Stenographer admit card</h4>
+
+                        <ol>
+                            <li>On the SSC Official Website select the tab, ‘Admit Card’.</li>
+                            <li>You will be redirected to the page that hosts respective SSC regional websites links.
+                            </li>
+                            <li>Select the region filled during the SSC Stenographer registration process.</li>
+                            <li>Key in the roll number/ registration ID or candidate’s name and password</li>
+                            <li>The admit card for SSC Stenographer Grade C and Grade D appears on the screen</li>
+                            <li>Save and download the admit card SSC stenographer exam.</li>
+                        </ol>
+
+                        <h3>SSC Stenographer Result</h3>
+                        <p class="px-3">The result for SSC Stenographer Exam is published on the SSC official
+                            website and notified
+                            through an official notification.</p>
+
+                        <p class="px-3">SSC will release the SSC Stenographer exam result for the 2023 exam after
+                            the exam is
+                            successfully conducted.</p>
+
+                        <p class="px-3">The Commission releases separate results for SSC Stenographer exam for each
+                            stage.</p>
+                        <p class="px-3">The SSC
+                            Stenographer merit list or result contains the following details:</p>
+
+                        <ol>
+                            <li>Name and Stage of the Examination</li>
+                            <li>Name and roll number of qualified candidates, and,</li>
+                            <li>Categories of qualifying candidates</li>
+                        </ol>
+
+                    </div>
+                    <!-- steno end here -->
+
+                    <!-- gd tab -->
+                    <div class="tab-pane fade" id="gd" role="tabpanel" aria-labelledby="gd-tab">
+                        <div class="row g-4 justify-content-center">
+                            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="course-item bg-light">
+                                    <div class="position-relative overflow-hidden">
+                                        <img class="img-fluid" src="img/course-1.jpg" alt="">
+                                        <div
+                                            class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                                            <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end"
+                                                style="border-radius: 30px 0 0 30px;">Read More</a>
+                                            <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3"
+                                                style="border-radius: 0 30px 30px 0;">Join Now</a>
+                                        </div>
+                                    </div>
+                                    <div class="text-center p-4 pb-0">
+                                        <h5 class="mb-4">Web Design & Development Course for Beginners</h5>
+                                        <div class="mb-3">
+                                            <small class="fa fa-star text-primary"></small>
+                                            <small class="fa fa-star text-primary"></small>
+                                            <small class="fa fa-star text-primary"></small>
+                                            <small class="fa fa-star text-primary"></small>
+                                            <small class="fa fa-star text-primary"></small>
+                                            <small>(123)</small>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex border-top">
+                                        <small class="flex-fill text-center border-end py-2"><i
+                                                class="fa fa-user-tie text-primary me-2"></i>John Doe</small>
+                                        <small class="flex-fill text-center border-end py-2"><i
+                                                class="fa fa-clock text-primary me-2"></i>1.49 Hrs</small>
+                                        <small class="flex-fill text-center py-2"><i
+                                                class="fa fa-user text-primary me-2"></i>30
+                                            Students</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="course-item bg-light">
+                                    <div class="position-relative overflow-hidden">
+                                        <img class="img-fluid" src="img/course-1.jpg" alt="">
+                                        <div
+                                            class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                                            <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end"
+                                                style="border-radius: 30px 0 0 30px;">Read More</a>
+                                            <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3"
+                                                style="border-radius: 0 30px 30px 0;">Join Now</a>
+                                        </div>
+                                    </div>
+                                    <div class="text-center p-4 pb-0">
+                                        <h5 class="mb-4">Web Design & Development Course for Beginners</h5>
+                                        <div class="mb-3">
+                                            <small class="fa fa-star text-primary"></small>
+                                            <small class="fa fa-star text-primary"></small>
+                                            <small class="fa fa-star text-primary"></small>
+                                            <small class="fa fa-star text-primary"></small>
+                                            <small class="fa fa-star text-primary"></small>
+                                            <small>(123)</small>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex border-top">
+                                        <small class="flex-fill text-center border-end py-2"><i
+                                                class="fa fa-user-tie text-primary me-2"></i>John Doe</small>
+                                        <small class="flex-fill text-center border-end py-2"><i
+                                                class="fa fa-clock text-primary me-2"></i>1.49 Hrs</small>
+                                        <small class="flex-fill text-center py-2"><i
+                                                class="fa fa-user text-primary me-2"></i>30
+                                            Students</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="course-item bg-light">
+                                    <div class="position-relative overflow-hidden">
+                                        <img class="img-fluid" src="img/course-1.jpg" alt="">
+                                        <div
+                                            class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                                            <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end"
+                                                style="border-radius: 30px 0 0 30px;">Read More</a>
+                                            <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3"
+                                                style="border-radius: 0 30px 30px 0;">Join Now</a>
+                                        </div>
+                                    </div>
+                                    <div class="text-center p-4 pb-0">
+                                        <h5 class="mb-4">Web Design & Development Course for Beginners</h5>
+                                        <div class="mb-3">
+                                            <small class="fa fa-star text-primary"></small>
+                                            <small class="fa fa-star text-primary"></small>
+                                            <small class="fa fa-star text-primary"></small>
+                                            <small class="fa fa-star text-primary"></small>
+                                            <small class="fa fa-star text-primary"></small>
+                                            <small>(123)</small>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex border-top">
+                                        <small class="flex-fill text-center border-end py-2"><i
+                                                class="fa fa-user-tie text-primary me-2"></i>John Doe</small>
+                                        <small class="flex-fill text-center border-end py-2"><i
+                                                class="fa fa-clock text-primary me-2"></i>1.49 Hrs</small>
+                                        <small class="flex-fill text-center py-2"><i
+                                                class="fa fa-user text-primary me-2"></i>30
+                                            Students</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-center wow fadeInUp mt-5" data-wow-delay="0.1s">
+                            <h6 class="section-title bg-white text-center text-primary px-3">SSC Exams Details</h6>
+                            <h1 class="mb-5">GD Exams Details</h1>
+                        </div>
+                        <h2>About SSC GD</h2>
+                        <p class="px-3">The SSC GD exam is the General Duty Constable examination conducted annually by
+                            the Staff Selection commission for the recruitment of eligible personnel in various
+                            Government departments and Ministries of the country.</p>
+                        <h2>Various Posts</h2>
+                        <ul>
+                            <li>Border Security Force (BSF),</li>
+                            <li>Central Industrial Security Force (CISF),</li>
+                            <li>Indo Tibetan Border Police (ITBP),</li>
+                            <li>Sashastra Seema Bal (SSB),</li>
+                            <li>Central Reserve Police Force (CRPF),</li>
+                            <li>Secretariat Security Force (SSF),</li>
+                            <li>National Investigation Agency (NIA), and</li>
+                            <li>Rifleman (General Duty) in Assam Rifles.</li>
+                        </ul>
+                        <p class="px-3">The SSC GD full form is Staff Selection Commission, General Duty. The
+                            recruitment scheme is developed by the Ministry of Home Affairs (MHA) as per the Memorandum
+                            of Understanding (MoU) signed between SSC and the Ministry of Home Affairs.</p>
+
+                        <h2>SSC GD Exam Recruitment</h2>
+                        <p class="px-3">Every year the Staff Selection Commission (SSC) offers a golden opportunity to
+                            millions of
+                            aspirants across India by conducting an SSC GD recruitment drive for hiring new entrants for
+                            the
+                            posts of Constables (General Duty) in Central Armed Police Forces (CAPFs), NIA & SSF and
+                            Rifleman (GD) in Assam Rifles (AR) from various States/ Union Territories across India.</p>
+
+                        <p class="px-3">The recruitment process for the SSC GD Constable exam consists of Computer-Based
+                            Examination
+                            (CBE), Physical Efficiency Test (PET), Physical Standard Test (PST) and Detailed Medical
+                            Examination (DME). To know more about the recruitment process of other SSC Exams, visit our
+                            SSC
+                            Recruitment page.</p>
+
+                        <p class="px-3">Candidates who are interested to apply for the SSC Constable (GD) exam are
+                            required to
+                            visit the SSC official website of SSC (ssc.nic.in) for online registration of the
+                            competitive
+                            exam. Or, candidates should ‘click here to apply’ link provided at
+                            (www.ssc.nic.in>Apply>GD-Constable).</p>
+
+                        <h2>SSC GD Eligibility Criteria</h2>
+                        <p class="px-3">Candidates who are willing to appear for the SSC Constable (GD) exam are
+                            required to check
+                            the SSC GD eligibility criteria prior to filling up the Application Form. There are certain
+                            SSC
+                            GD requirements that a candidate has to fulfil before applying for SSC GD Post.</p>
+
+                        <p class="px-3">The Key SSC GD Eligibility Criteria that candidates must adhere to are as
+                            follows:</p>
+
+                        <ol>
+                            <li><span class="fw-bold">Educational Qualifications:</span> Candidates must hold the
+                                essential educational qualification
+                                i.e, Matriculation or 10th class pass from a recognized Board/
+                                University before applying for the GD post.</li>
+                            <li><span class="fw-bold">Nationality:</span> The candidate must be an Indian citizen. For
+                                migrated candidates, they must
+                                submit domicile/ PRC against his/ her state/ UT.</li>
+                            <li><span class="fw-bold">Age Limit:</span> The candidates for SSC GD exam should
+                                fulfil the age requirement of
+                                18-23 years.</li>
+                            <li><span class="fw-bold">Age Relaxation:</span> There is an age relaxation in the upper age
+                                limit for SC, ST, OBC,
+                                Ex-Servicemen and other categories of persons based on the Government’s orders.</li>
+                        </ol>
+
+                        <!-- age relaxation table here -->
+                        <table class="table">
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th scope="col">Code Number</th>
+                                    <th scope="col">Category</th>
+                                    <th scope="col">Permissible Age Relaxation</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td scope="row">01</td>
+                                    <td scope="row">SC/ ST</td>
+                                    <td>5 Years</td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">02</td>
+                                    <td scope="row">OBC</td>
+                                    <td>3 Years</td>
+
+                                </tr>
+                                <tr>
+                                    <td scope="row">03</td>
+                                    <td scope="row">Ex-Servicemen</td>
+                                    <td> 3 years after deduction of the military service rendered from the actual age as
+                                        on the date of reckoning.</td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">04</td>
+                                    <td scope="row"> Children and dependents of victims killed in the 1984 riots or
+                                        communal riots of 2002 in Gujarat (Unreserved)</td>
+                                    <td>5 years</td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">05</td>
+                                    <td scope="row"> Children and dependents of victims killed in the 1984 riots or
+                                        communal riots of 2002 in Gujarat (OBC)</td>
+                                    <td>8 years</td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">06</td>
+                                    <td scope="row">Children and dependents of victims killed in the 1984 riots or
+                                        communal riots of 2002 in Gujarat (SC/ ST)</td>
+                                    <td>10 years</td>
+                                </tr>
+                                <tr>
+                                    <td>07</td>
+                                    <td scope="row">Candidates who had ordinarily been domiciled in the State of Jammu &
+                                        Kashmir during the period from 1st Jan 1980 to 31st Dec 1989.</td>
+                                    <td>Up to 35 years, OBC- Up to 38 years, SC/ST – Up to 40 Years</td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">Defence Personnel</td>
+                                    <td>5 years</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <p class="px-3"><small>Candidates appearing for SSC Constable (GD) Exam must meet the specified
+                                SSC GD
+                                requirements or else their application would stand cancelled. Candidates can check SSC
+                                Eligibility to know the requirements of other exams conducted by the commission.</small>
+                        </p>
+
+                        <h2>SSC GD Apply Online</h2>
+                        <p class="px-3">The SSC GD online apply procedure will commence with the release of
+                            exam notification.
+                            The online application procedure is given in detail on the notification PDF.</p>
+
+                        <p class="px-3">Candidates willing to take the SSC GD exam are required to apply for SSC GD
+                            online from the SSC
+                            official website (ssconline.nic.in) or ‘Click here to apply’ link provided at
+                            ssc.nic.in>Apply>GD-Constable.</p>
+
+                        <p class="px-3">It is imperative for candidates to read the instructions thoroughly before
+                            proceeding with the
+                            SSC GD online one time ‘Registration Form’/ Application Form.</p>
+
+                        <p class="px-3">Applicants should provide all the requisite details while filling up the SSC GD
+                            Online
+                            Application Form. The Registration ID and password will be provided once the SSC GD Online
+                            Form
+                            is submitted. This would be the permanent Registration ID and Password which is required to
+                            apply for this exam.</p>
+
+                        <h2>SSC GD Application Fee</h2>
+
+                        <p class="px-3">The application fee details for SSC GD Exam are given below:</p>
+
+                        <table class="table">
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th scope="col">Categories</th>
+                                    <th scope="col">Application Fee</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td scope="row">UR/OBC(Male)</td>
+                                    <td>100/-</td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">Women Candidates</td>
+                                    <td>Exempted</td>
+
+                                </tr>
+                                <tr>
+                                    <td scope="row">Ex-Servicemen</td>
+                                    <td>Exempted</td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">Scheduled Caste/ Scheduled Tribe</td>
+                                    <td>Exempted</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <h2>SSC GD Exam Pattern</h2>
+                        <p class="px-3">The SSC GD Exam pattern is decided by the commission itself. Candidates willing
+                            to appear
+                            for SSC GD must be thorough with the exam pattern of SSC GD Constable exam. SSC follows
+                            a fixed pattern for SSC GD exam and mentions it in detail in the official notification. Any
+                            changes in the exam pattern of SSC GD will also be notified by the commission.</p>
+                        <p class="px-3">The exam pattern of SSC GD is divided into four stages:</p>
+
+                        <ol>
+                            <li><small>Computer-Based Examination (CBE)</small></li>
+                            <li><small>Physical Efficiency Test (PET)</small></li>
+                            <li><small>Physical Standard Test (PST)</small></li>
+                            <li><small>Detailed Medical Examination (DME)</small></li>
+                        </ol>
+
+                        <p class="px-3">Given below is a detailed look into each of these stages:</p>
+                        <ol>
+                            <small>
+                                <li><span class="fw-bold">Computer-Based Examination (CBE):</span>This is an
+                                    online
+                                    test
+                                    that consists of objective-type
+                                    questions and multiple-choice questions which has four sections:
+                                    <ul>
+                                        <li>General Intelligence and Reasoning</li>
+                                        <li>General Knowledge and General Awareness</li>
+                                        <li>Elementary Mathematics</li>
+                                        <li>English/ Hindi</li>
+                                    </ul>
+
+                                </li>
+                                <li>
+                                    Physical Efficiency Test (PET): This test assesses the candidate’s
+                                    physical fitness on the basis of height parameters and he/ she needs to undergo PET
+                                    (race) which is followed by a biometric/ technology-aided identification test.
+                                </li>
+                                <li><span class="fw-bold">Physical Standard Test (PST):</span> This test evaluates the
+                                    physical
+                                    standards of the
+                                    candidates on the basis of three factors – height, chest and weight.</li>
+                                <li><span class="fw-bold">Detailed Medical Examination (DME):</span> Shortlisted
+                                    candidates who pass the PET and PST
+                                    are required to go through a detailed medical examination and are medically examined
+                                    by the Medical Boards constituted by the CAPFs to assess their physical and medical
+                                    fitness.</li>
+                            </small>
+                        </ol>
+
+                        <h2>SSC GD Syllabus</h2>
+                        <p class="px-3">The syllabus of SSC General Duty Constable exam majorly remains the same every
+                            year and the
+                            commission mentions the detailed syllabus on the notification of GD exam.</p>
+
+                        <p class="px-3">The SSC GD syllabus comprises a Computer-Based Examination (CBE) which
+                            includes an
+                            objective-type paper of 100 marks, which needs to be answered in a duration of 90 minutes.
+                        </p>
+
+                        <p class="px-3">The SSC GD Syllabus is given below:</p>
+
+                        <table class="table table-bordered">
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th>Parts</th>
+                                    <th>Section Name</th>
+                                    <th>Total No. of Questions</th>
+                                    <th>Maximum Marks</th>
+                                    <th>Duration</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="fw-bold">Part A</td>
+                                    <td>General Intelligence and Reasoning</td>
+                                    <td> 25</td>
+                                    <td> 25</td>
+                                    <td> 90</td>
+                                </tr>
+                                <tr>
+                                    <td class="fw-bold">Part B</td>
+                                    <td>General Knowledge and General Awareness</td>
+                                    <td>25</td>
+                                    <td>25</td>
+                                </tr>
+                                <tr>
+                                    <td class="fw-bold">Part C</td>
+                                    <td>Elementary Mathematics</td>
+                                    <td> 25</td>
+                                    <td> 25</td>
+                                </tr>
+                                <tr>
+                                    <td class="fw-bold">Part D</td>
+                                    <td>English/ Hindi</td>
+                                    <td>25</td>
+                                    <td>25</td>
+                                </tr>
+                                <tr>
+                                    <td class="fw-bold">Total</td>
+                                    <td>English/ Hindi</td>
+                                    <td>25</td>
+                                    <td>25</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <p class="px-3">Given below are the topics under each section:</p>
+
+                        <ol>
+                            <li><span class="fw-bold">General Intelligence & Reasoning:</span> It mainly consists of
+                                basic
+                                topics like arithmetical
+                                reasoning, problem-solving, number series, analogies, coding-decoding and figures
+                                classification, etc.</li>
+                            <li><span class="fw-bold">General Awareness:</span> Under this section, the topics consist
+                                of
+                                Scientific Research,
+                                Geography,
+                                General Polity, Culture, History, etc. Candidates can check various Static GK topics
+                                for
+                                their
+                                preparation.</li>
+                            <li><span class="fw-bold">Elementary Mathematics:</span> In this section, it includes topics
+                                like
+                                averages, decimals and
+                                fractions, mensuration, ratio and proportion, time and distance, etc.</li>
+                            <li><span class="fw-bold">English/Hindi:</span> This includes specific topics pertaining to
+                                a
+                                language and tests the
+                                grammatical
+                                and comprehension skills of the candidates.</li>
+                        </ol>
+
+                        <h2>SSC GD Admit Card</h2>
+                        <p class="px-3">Applicants who take the SSC GD exam need to download the SSC GD Admit Card from
+                            the SSC official
+                            website (ssc.nic.in) after satisfying all the SSC GD requirements in terms of eligibility.
+                        </p>
+
+                        <p class="px-3">While downloading the Call Letter, they need to check the website and click on
+                            the SSC GD Admit
+                            Card link and enter the relevant credentials such as Registration Number and Date of Birth
+                            (DoB). It is recommended for applicants to retain a copy of the document which they should
+                            carry
+                            to the exam centre without fail, along with a Passport-size photo affixed on it on the exam
+                            day.</p>
+
+                        <h2>SSC GD Result</h2>
+                        <p class="px-3">Generally, the Staff Selection Commission announces the SSC GD Exam result on
+                            the SSC official
+                            website (ssc.nic.in) which is declared once the exam is over. Details regarding SSC GD
+                            Constable
+                            Exam result will be updated once the exam is conducted.</p>
+
+
+
+
+                    </div>
+
+                    <!-- gd end here -->
+
+                    <!-- chsl tab -->
+                    <div class="tab-pane fade" id="chsl" role="tabpanel" aria-labelledby="chsl-tab">
+                        <div class="row g-4 justify-content-center">
+                            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="course-item bg-light">
+                                    <div class="position-relative overflow-hidden">
+                                        <img class="img-fluid" src="img/course-1.jpg" alt="">
+                                        <div
+                                            class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                                            <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end"
+                                                style="border-radius: 30px 0 0 30px;">Read More</a>
+                                            <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3"
+                                                style="border-radius: 0 30px 30px 0;">Join Now</a>
+                                        </div>
+                                    </div>
+                                    <div class="text-center p-4 pb-0">
+                                        <h5 class="mb-4">Web Design & Development Course for Beginners</h5>
+                                        <div class="mb-3">
+                                            <small class="fa fa-star text-primary"></small>
+                                            <small class="fa fa-star text-primary"></small>
+                                            <small class="fa fa-star text-primary"></small>
+                                            <small class="fa fa-star text-primary"></small>
+                                            <small class="fa fa-star text-primary"></small>
+                                            <small>(123)</small>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex border-top">
+                                        <small class="flex-fill text-center border-end py-2"><i
+                                                class="fa fa-user-tie text-primary me-2"></i>John Doe</small>
+                                        <small class="flex-fill text-center border-end py-2"><i
+                                                class="fa fa-clock text-primary me-2"></i>1.49 Hrs</small>
+                                        <small class="flex-fill text-center py-2"><i
+                                                class="fa fa-user text-primary me-2"></i>30
+                                            Students</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="course-item bg-light">
+                                    <div class="position-relative overflow-hidden">
+                                        <img class="img-fluid" src="img/course-1.jpg" alt="">
+                                        <div
+                                            class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                                            <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end"
+                                                style="border-radius: 30px 0 0 30px;">Read More</a>
+                                            <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3"
+                                                style="border-radius: 0 30px 30px 0;">Join Now</a>
+                                        </div>
+                                    </div>
+                                    <div class="text-center p-4 pb-0">
+                                        <h5 class="mb-4">Web Design & Development Course for Beginners</h5>
+                                        <div class="mb-3">
+                                            <small class="fa fa-star text-primary"></small>
+                                            <small class="fa fa-star text-primary"></small>
+                                            <small class="fa fa-star text-primary"></small>
+                                            <small class="fa fa-star text-primary"></small>
+                                            <small class="fa fa-star text-primary"></small>
+                                            <small>(123)</small>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex border-top">
+                                        <small class="flex-fill text-center border-end py-2"><i
+                                                class="fa fa-user-tie text-primary me-2"></i>John Doe</small>
+                                        <small class="flex-fill text-center border-end py-2"><i
+                                                class="fa fa-clock text-primary me-2"></i>1.49 Hrs</small>
+                                        <small class="flex-fill text-center py-2"><i
+                                                class="fa fa-user text-primary me-2"></i>30
+                                            Students</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="course-item bg-light">
+                                    <div class="position-relative overflow-hidden">
+                                        <img class="img-fluid" src="img/course-1.jpg" alt="">
+                                        <div
+                                            class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                                            <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end"
+                                                style="border-radius: 30px 0 0 30px;">Read More</a>
+                                            <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3"
+                                                style="border-radius: 0 30px 30px 0;">Join Now</a>
+                                        </div>
+                                    </div>
+                                    <div class="text-center p-4 pb-0">
+                                        <h5 class="mb-4">Web Design & Development Course for Beginners</h5>
+                                        <div class="mb-3">
+                                            <small class="fa fa-star text-primary"></small>
+                                            <small class="fa fa-star text-primary"></small>
+                                            <small class="fa fa-star text-primary"></small>
+                                            <small class="fa fa-star text-primary"></small>
+                                            <small class="fa fa-star text-primary"></small>
+                                            <small>(123)</small>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex border-top">
+                                        <small class="flex-fill text-center border-end py-2"><i
+                                                class="fa fa-user-tie text-primary me-2"></i>John Doe</small>
+                                        <small class="flex-fill text-center border-end py-2"><i
+                                                class="fa fa-clock text-primary me-2"></i>1.49 Hrs</small>
+                                        <small class="flex-fill text-center py-2"><i
+                                                class="fa fa-user text-primary me-2"></i>30
+                                            Students</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-center wow fadeInUp mt-5" data-wow-delay="0.1s">
+                            <h6 class="section-title bg-white text-center text-primary px-3">SSC Exams Details</h6>
+                            <h1 class="mb-5">CHSL Exams Details</h1>
+                        </div>
+                        <h2>About SSC CHSL</h2>
+                        <p class="px-3">The Staff Selection Commission holds the SSC CHSL, a yearly national-level
+                            government exam, to choose candidates with higher secondary education for various
+                            departments and offices in India.</p>
+                        <h2>Ssc CHSL Posts</h2>
+                        <ul>
+                            <li>LDC - Lower Division Clerk</li>
+                            <li>JSA - Junior Secretarial Assistant</li>
+                            <li>Postal Assistant (PA)</li>
+                            <li>Sorting Assistant (SA)</li>
+                            <li>Data Entry Operator (DEO)</li>
+                            <li>DEO (Grade A)</li>
+                        </ul>
+                        <h2>SSC CHSL Eligibility</h2>
+                        <p>Those candidates writing the SSC CHSL Exam this year must thoroughly understand the
+                            eligibility
+                            criteria. The SSC CHSL Eligibility criteria are as follows:</p>
+
+                        <ol>
+                            <li>Nationality: Candidates must be nationals of India, Nepal, Bhutan</li>
+                            <li>Age Limit: Candidates must be between the age group of 18 years to 27 years.</li>
+                            <li>Qualifications: Candidates must be 12th pass or equivalent from a recognized board of a
+                                university.</li>
+                        </ol>
+                        <p class="px-3">Candidates can check the detailed SSC CHSL Eligibility Criteria by referring to
+                            this linked
+                            article.</p>
+
+                        <h2>SSC CHSL Exam Pattern.</h2>
+                        <p class="px-3">The SSC CHSL Exam is conducted in three stages or tiers. The following is the
+                            basic outline of
+                            the SSC CHSL Exam Pattern:</p>
+
+                        <!-- exam pattern table -->
+                        <table class="table">
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th scope="col">Tier</th>
+                                    <th scope="col">Mode/Type</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td scope="row">Tier I</td>
+                                    <td>Computer-Based</td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">Tier II</td>
+                                    <td>Descriptive Paper</td>
+
+                                </tr>
+                                <tr>
+                                    <td scope="row">Tier III</td>
+                                    <td>Skill Test</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <p class="px-3">Before outlining a preparation strategy, candidates must check the official SSC
+                            CHSL Notification from time to time to get updates regarding changes in the exam pattern.
+                        </p>
+
+                        <h2>SSC CHSL Syllabus</h2>
+                        <p class="px-3">The SSC CHSL Syllabus covers a wide range of topics on a variety of subjects.
+                            The syllabus for
+                            the SSC CHSL Exam may vary from tier to tier.</p>
+
+                        <p class="px-3">The syllabus for this year’s exam is as follows:</p>
+
+                        <p class="px-3">Tier I: The topics in this section will be related to General Intelligence and
+                            Reasoning,
+                            General Awareness, Quantitative Aptitude, English Language.</p>
+
+                        <p class="px-3">Tier II: This is a descriptive exam where a candidate’s writing skills will be
+                            put to the test.
+                            Candidates will be asked to write applications and essays on various topics like Economic
+                            reforms, national securities, etc.</p>
+
+                        <p class="px-3">Tier III: This tier consists of a Data Entry Speed Test & Computer Proficiency
+                            Test. This test
+                            is compulsory for those candidates who have applied for the post of DEO and DEO (CAG).</p>
+
+                        <p class="px-3">For more detailed information on <a href="">SSC CHSL Syllabus</a>, candidates
+                            can visit the
+                            linked page.</p>
+
+                        <h2>SSC CHSL Apply Online</h2>
+                        <p class="px-3">To register for the SSC CHSL Exam 2023, candidates must visit the official SSC
+                            website to fill
+                            the application form.</p>
+
+                        <p class="px-3">The steps for SSC CHSL registration is as follows:</p>
+
+                        <ul>
+
+                            <li><span class="fw-bold">Step 1</span> – Visit the official SSC website.</li>
+                            <li><span class="fw-bold">Step 2</span> – Register using your mobile number and email id.
+                            </li>
+                            <li><span class="fw-bold">Step 3</span> – Login using your registration id, which will be
+                                generated after you register
+                                with
+                                your
+                                mobile number and email id.</li>
+                            <li><span class="fw-bold">Step 4</span> – Fill all the basic details like name, address,
+                                etc.</li>
+                            <li><span class="fw-bold">Step 5</span> – Upload necessary documents like photographs,
+                                signature.</li>
+                            <li><span class="fw-bold">Step 6</span> – Before clicking on the ‘submit’ button, review the
+                                application
+                                form to
+                                make
+                                sure
+                                that
+                                all the data entered are correct and free of any errors.</li>
+                            <li><span class="fw-bold">Step 7</span> – Select your mode of payment for the payment of the
+                                application fee and fill in
+                                the
+                                details. The registration process will be completed.</li>
+                        </ul>
+
+                        <h2>SSC CHSL Preparation</h2>
+                        <p class="px-3">To crack an exam like the SSC CHSL, it is not enough to just work hard but
+                            to work smart as
+                            well. To this extent, candidates must stay updated on the Exam pattern and syllabus on a
+                            regular
+                            basis by visiting the official SSC website. The right set of study material will also go a
+                            long
+                            way in creating a clear concept of the topics covered in the SSC CHSL Exam.</p>
+
+                        <p class="px-3">Visit the given link for more details on the <a href="">SSC CHSL preparation
+                                strategy</a>
+                            and best books for
+                            CHSL.</p>
+
+                        <p class="px-3">Candidates preparing for SSC CHSL exam can visit the SSC CHSL mock test page
+                            to get free mock
+                            tests based on the latest exam pattern and prepare for the upcoming SSC exams.</p>
+
+                        <h2>SSC CHSL Admit Card</h2>
+                        <p class="px-3">The facility for downloading the Admission Certificates/Admit Cards (ACs) for
+                            the Examination
+                            will be uploaded on the website of the concerned Regional/Sub Regional Office one week
+                            before
+                            the exam. Candidates are advised to visit the website of the concerned Regional Office and
+                            SSC
+                            HQ regularly for updates and information about the examination.</p>
+
+                        <h3>Steps to download SSC CHSL Admit Card:</h3>
+                        <ol>
+                            <li>Visit the SSC CHSL official website.</li>
+                            <li>Click on the link ‘SSC CHSL Admit Card’.</li>
+                            <li>Enter the registration number and password to login.</li>
+                            <li>Admit card will be displayed on the screen.</li>
+                            <li>Download it and take the printout for further use.</li>
+                        </ol>
+
+
+
+                    </div>
+                    <!-- chsl end here -->
+
+                    <!-- cpo tab -->
+                    <div class="tab-pane fade" id="cpo" role="tabpanel" aria-labelledby="cpo-tab">
+                        <div class="row g-4 justify-content-center">
+                            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="course-item bg-light">
+                                    <div class="position-relative overflow-hidden">
+                                        <img class="img-fluid" src="img/course-1.jpg" alt="">
+                                        <div
+                                            class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                                            <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end"
+                                                style="border-radius: 30px 0 0 30px;">Read More</a>
+                                            <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3"
+                                                style="border-radius: 0 30px 30px 0;">Join Now</a>
+                                        </div>
+                                    </div>
+                                    <div class="text-center p-4 pb-0">
+                                        <h5 class="mb-4">Web Design & Development Course for Beginners</h5>
+                                        <div class="mb-3">
+                                            <small class="fa fa-star text-primary"></small>
+                                            <small class="fa fa-star text-primary"></small>
+                                            <small class="fa fa-star text-primary"></small>
+                                            <small class="fa fa-star text-primary"></small>
+                                            <small class="fa fa-star text-primary"></small>
+                                            <small>(123)</small>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex border-top">
+                                        <small class="flex-fill text-center border-end py-2"><i
+                                                class="fa fa-user-tie text-primary me-2"></i>John Doe</small>
+                                        <small class="flex-fill text-center border-end py-2"><i
+                                                class="fa fa-clock text-primary me-2"></i>1.49 Hrs</small>
+                                        <small class="flex-fill text-center py-2"><i
+                                                class="fa fa-user text-primary me-2"></i>30
+                                            Students</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="course-item bg-light">
+                                    <div class="position-relative overflow-hidden">
+                                        <img class="img-fluid" src="img/course-1.jpg" alt="">
+                                        <div
+                                            class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                                            <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end"
+                                                style="border-radius: 30px 0 0 30px;">Read More</a>
+                                            <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3"
+                                                style="border-radius: 0 30px 30px 0;">Join Now</a>
+                                        </div>
+                                    </div>
+                                    <div class="text-center p-4 pb-0">
+                                        <h5 class="mb-4">Web Design & Development Course for Beginners</h5>
+                                        <div class="mb-3">
+                                            <small class="fa fa-star text-primary"></small>
+                                            <small class="fa fa-star text-primary"></small>
+                                            <small class="fa fa-star text-primary"></small>
+                                            <small class="fa fa-star text-primary"></small>
+                                            <small class="fa fa-star text-primary"></small>
+                                            <small>(123)</small>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex border-top">
+                                        <small class="flex-fill text-center border-end py-2"><i
+                                                class="fa fa-user-tie text-primary me-2"></i>John Doe</small>
+                                        <small class="flex-fill text-center border-end py-2"><i
+                                                class="fa fa-clock text-primary me-2"></i>1.49 Hrs</small>
+                                        <small class="flex-fill text-center py-2"><i
+                                                class="fa fa-user text-primary me-2"></i>30
+                                            Students</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="course-item bg-light">
+                                    <div class="position-relative overflow-hidden">
+                                        <img class="img-fluid" src="img/course-1.jpg" alt="">
+                                        <div
+                                            class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                                            <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end"
+                                                style="border-radius: 30px 0 0 30px;">Read More</a>
+                                            <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3"
+                                                style="border-radius: 0 30px 30px 0;">Join Now</a>
+                                        </div>
+                                    </div>
+                                    <div class="text-center p-4 pb-0">
+                                        <h5 class="mb-4">Web Design & Development Course for Beginners</h5>
+                                        <div class="mb-3">
+                                            <small class="fa fa-star text-primary"></small>
+                                            <small class="fa fa-star text-primary"></small>
+                                            <small class="fa fa-star text-primary"></small>
+                                            <small class="fa fa-star text-primary"></small>
+                                            <small class="fa fa-star text-primary"></small>
+                                            <small>(123)</small>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex border-top">
+                                        <small class="flex-fill text-center border-end py-2"><i
+                                                class="fa fa-user-tie text-primary me-2"></i>John Doe</small>
+                                        <small class="flex-fill text-center border-end py-2"><i
+                                                class="fa fa-clock text-primary me-2"></i>1.49 Hrs</small>
+                                        <small class="flex-fill text-center py-2"><i
+                                                class="fa fa-user text-primary me-2"></i>30
+                                            Students</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-center wow fadeInUp mt-5" data-wow-delay="0.1s">
+                            <h6 class="section-title bg-white text-center text-primary px-3">SSC Exams Details</h6>
+                            <h1 class="mb-5">CPO Exams Details</h1>
+                        </div>
+                        <h2>About SSC CPO</h2>
+                        <P class="px-3">The SSC CPO exam is a national-level test conducted by SSC for recruiting
+                            candidates into the Central Police Organization. The SSC CPO stands for Staff Selection
+                            Commission Central Police Organization.</P>
+                        <h2>Various Posts</h2>
+                        <ul>
+                            <li>Delhi Police Sub-Inspector</li>
+                            <li>Border Security Force (BSF) Sub-Inspector</li>
+                            <li>Central Industrial Security Force (CISF) Sub-Inspector</li>
+                            <li>Central Reserve Police Force (CRPF) Sub-Inspector</li>
+                            <li>Indo-Tibetan Border Police Force (ITBPF) Sub-Inspector</li>
+                            <li>Sashastra Seema Bal (SSB) Sub-Inspector</li>
+                            <li>Assistant Sub-Inspector in Central Industrial Security Force (CISF)</li>
+                        </ul>
+
+                        <h2>SSC CPO Eligibility</h2>
+                        <p>Those candidates writing the SSC CHSL Exam this year must thoroughly understand the
+                            eligibility
+                            criteria. The SSC CPO Eligibility criteria are as follows:</p>
+
+                        <ol>
+                            <li>Nationality: Must be a citizen of India, Nepal or Bhutan.
+                                Migrated candidates should have necessary citizenship documents from Govt. of India.
+                            </li>
+                            <li>Age Limit: Candidates must be between the age group of 20 years to 25 years.</li>
+                            <li>Qualifications:Bachelor’s degree from a recognized University/Institute</li>
+                        </ol>
+                        <p class="px-3">Candidates can check the detailed SSC CPO Eligibility Criteria by referring to
+                            this linked
+                            article.</p>
+
+                        <h2>SSC CPO Exam Pattern</h2>
+                        <p class="px-3">The SSC CPO Exam Pattern has 4 stages-</p>
+
+                        <ol>
+                            <li>Paper I</li>
+                            <li>Physical Test</li>
+                            <li>Paper-II</li>
+                            <li>Medical Examination</li>
+                        </ol>
+
+                        <p class="px-3">All these above stages/sections are mandatory.</p>
+
+                        <p class="px-3">The exam pattern for SSC CPO Paper I is as follows:</p>
+                        <table class="table">
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th scope="col">Subject</th>
+                                    <th scope="col">Marks</th>
+                                    <th scope="col">Duration</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td scope="row">General Intelligence & Reasoning</td>
+                                    <td>50</td>
+                                    <td colspan="3">02 hrs</td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">General Knowledge & Awareness</td>
+                                    <td>50</td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">Quantitative Aptitude</td>
+                                    <td>50</td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">English Comprehension</td>
+                                    <td>50</td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+
+                        <p class="px-3">The SSC CPO Exam Pattern for Paper II is as follows:</p>
+                        <table class="table">
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th scope="col">Subject</th>
+                                    <th scope="col">Marks</th>
+                                    <th scope="col">Duration</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td scope="row">English Language & Comprehension</td>
+                                    <td>200</td>
+                                    <td colspan="3">02 hrs</td>
+                                </tr>
+
+
+                            </tbody>
+                        </table>
+
+                        <h2>SSC CPO SYLLABUS</h2>
+                        <p class="px-3">The syllabus of Staff Selection Commission Central Police Organisation is vast
+                            and comprehensive
+                            and covers all the topics in Paper I & Paper II that overlap with other competitive exams.
+                            Candidates need to prepare well for both the papers are they are equally important.</p>
+                        <p class="px-3">As per the syllabus, the SSC CPO Paper I that is a computer-based exam ask
+                            questions related to the following subjects-</p>
+
+                        <ul>
+                            <li>General Intelligence & Reasoning</li>
+                            <li>General Knowledge and Awareness</li>
+                            <li>Quantitative Aptitude</li>
+                            <li>English Comprehension</li>
+                        </ul>
+
+                        <p class="px-3">The syllabus of Paper-II in the SSC CPO exam is based on English Language &
+                            Comprehensions where
+                            the candidates’ skills on vocabulary, spelling, grammar, sentence structure, etc are tested.
+                        </p>
+
+                        <p class="px-3">For more details on the SSC CPO Syllabus, candidates can refer to the linked
+                            article.</p>
+
+                        <h2>SSC CPO Online</h2>
+                        <p class="px-3">Candidates should follow the below steps while applying for the SSC CPO Exam.
+                        </p>
+
+                        <ol>
+                            <li>Log in to the official website(https://ssc.nic.in).</li>
+                            <li>Fill the basic details asked for in the registration window.</li>
+                            <li>On submitting, you will be provided with a registration ID.</li>
+                            <li>Log in using the registration ID and password.</li>
+                            <li>Complete all other steps and submit relevant documents</li>
+                            <li>Upload your photograph and scanned copy of the signature as per the desired dimensions.
+                            </li>
+                            <li>Complete your payment process.</li>
+                            <li>Check all the details provided by you for any mistakes.</li>
+                            <li>Submit your application form. Your registration will be completed.</li>
+                            <li>Take a printout of the application form for your reference.</li>
+                        </ol>
+
+                        <h2>SSC CPO Preparation</h2>
+                        <p class="px-3">As the SSC CPO Exam dates have been changing, candidates need to prepare
+                            properly to face the
+                            exams with confidence.</p>
+
+                        <p class="px-3">The top 8 Preparation tips for the CPO Exam is as follows:</p>
+
+                        <li>Keep a track of the official website.</li>
+                        <li>Understand the exam pattern properly and prepare the topics in the CPO syllabus thoroughly.
+                        </li>
+                        <li>Have a clear concept on the topics like Reasoning, Aptitude by taking the SSC Mock Test.
+                        </li>
+                        <li>Improve your solving speed and practice numerous times</li>
+                        <li>Make notes on the difficult concepts in a precise way for your understanding.</li>
+                        <li>Make a flow chart for different lengthy concepts and topics</li>
+                        <li>Practise previous years’ question papers and Online quiz for better preparation.</li>
+                        <li>Do not be stressed while preparing. Stay calm and prepare in a relaxed mood.</li>
+
+                        <p class="px-3">Candidates aspiring to get into the CPO should keep certain things in mind:</p>
+                        <ul>
+                            <li>They should always be updated on the latest information through the official
+                                notification.</li>
+                            <li>They should have all the necessary for the further valuation process.</li>
+                            <li>They should avoid using any sort of malpractices in the exam.</li>
+                            <li>They should abide by the rules and regulations as stated by the SSC for the CPO exam.
+                            </li>
+                        </ul>
+                        <p class="px-3">For detailed tips and tricks, important preparation strategies and study
+                            materials, visit the
+                            SSC CPO Preparation page linked here.</p>
+
+
+                    </div>
+                    <!-- cpo end here -->
+
+                    <!-- cgl tab ********************************* -->
+                    <div class="tab-pane fade" id="cgl" role="tabpanel" aria-labelledby="cgl-tab">
+                        <div class="row g-4 justify-content-center">
+                            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="course-item bg-light">
+                                    <div class="position-relative overflow-hidden">
+                                        <img class="img-fluid" src="img/course-1.jpg" alt="">
+                                        <div
+                                            class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                                            <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end"
+                                                style="border-radius: 30px 0 0 30px;">Read More</a>
+                                            <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3"
+                                                style="border-radius: 0 30px 30px 0;">Join Now</a>
+                                        </div>
+                                    </div>
+                                    <div class="text-center p-4 pb-0">
+                                        <h5 class="mb-4">Web Design & Development Course for Beginners</h5>
+                                        <div class="mb-3">
+                                            <small class="fa fa-star text-primary"></small>
+                                            <small class="fa fa-star text-primary"></small>
+                                            <small class="fa fa-star text-primary"></small>
+                                            <small class="fa fa-star text-primary"></small>
+                                            <small class="fa fa-star text-primary"></small>
+                                            <small>(123)</small>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex border-top">
+                                        <small class="flex-fill text-center border-end py-2"><i
+                                                class="fa fa-user-tie text-primary me-2"></i>John Doe</small>
+                                        <small class="flex-fill text-center border-end py-2"><i
+                                                class="fa fa-clock text-primary me-2"></i>1.49 Hrs</small>
+                                        <small class="flex-fill text-center py-2"><i
+                                                class="fa fa-user text-primary me-2"></i>30
+                                            Students</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="course-item bg-light">
+                                    <div class="position-relative overflow-hidden">
+                                        <img class="img-fluid" src="img/course-1.jpg" alt="">
+                                        <div
+                                            class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                                            <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end"
+                                                style="border-radius: 30px 0 0 30px;">Read More</a>
+                                            <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3"
+                                                style="border-radius: 0 30px 30px 0;">Join Now</a>
+                                        </div>
+                                    </div>
+                                    <div class="text-center p-4 pb-0">
+                                        <h5 class="mb-4">Web Design & Development Course for Beginners</h5>
+                                        <div class="mb-3">
+                                            <small class="fa fa-star text-primary"></small>
+                                            <small class="fa fa-star text-primary"></small>
+                                            <small class="fa fa-star text-primary"></small>
+                                            <small class="fa fa-star text-primary"></small>
+                                            <small class="fa fa-star text-primary"></small>
+                                            <small>(123)</small>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex border-top">
+                                        <small class="flex-fill text-center border-end py-2"><i
+                                                class="fa fa-user-tie text-primary me-2"></i>John Doe</small>
+                                        <small class="flex-fill text-center border-end py-2"><i
+                                                class="fa fa-clock text-primary me-2"></i>1.49 Hrs</small>
+                                        <small class="flex-fill text-center py-2"><i
+                                                class="fa fa-user text-primary me-2"></i>30
+                                            Students</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="course-item bg-light">
+                                    <div class="position-relative overflow-hidden">
+                                        <img class="img-fluid" src="img/course-1.jpg" alt="">
+                                        <div
+                                            class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                                            <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end"
+                                                style="border-radius: 30px 0 0 30px;">Read More</a>
+                                            <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3"
+                                                style="border-radius: 0 30px 30px 0;">Join Now</a>
+                                        </div>
+                                    </div>
+                                    <div class="text-center p-4 pb-0">
+                                        <h5 class="mb-4">Web Design & Development Course for Beginners</h5>
+                                        <div class="mb-3">
+                                            <small class="fa fa-star text-primary"></small>
+                                            <small class="fa fa-star text-primary"></small>
+                                            <small class="fa fa-star text-primary"></small>
+                                            <small class="fa fa-star text-primary"></small>
+                                            <small class="fa fa-star text-primary"></small>
+                                            <small>(123)</small>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex border-top">
+                                        <small class="flex-fill text-center border-end py-2"><i
+                                                class="fa fa-user-tie text-primary me-2"></i>John Doe</small>
+                                        <small class="flex-fill text-center border-end py-2"><i
+                                                class="fa fa-clock text-primary me-2"></i>1.49 Hrs</small>
+                                        <small class="flex-fill text-center py-2"><i
+                                                class="fa fa-user text-primary me-2"></i>30
+                                            Students</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-center wow fadeInUp mt-5" data-wow-delay="0.1s">
+                            <h6 class="section-title bg-white text-center text-primary px-3">SSC Exams Details</h6>
+                            <h1 class="mb-5">CGL Exams Details</h1>
+                        </div>
+                        <h2>About SSC CGL</h2>
+                        <P>The Staff Selection Commission conducts many national level exams to recruit candidates into
+                            various Organizations, departments, offices under the Government of India. One of the exams
+                            conducted by the SSC is the Combined Graduate Level (CGL) Exam.</P>
+
+                        <p>The SSC CGL Exam is conducted to select candidates into Group B & Group C posts in
+                            various
+                            categories under the Indian Government. This exam is a 4 stage exam.</p>
+
+                        <p>For more details on other SSC Exams, refer to the linked article.</P>
+                        <h2>Various Posts</h2>
+                        <ul>
+                            <li>Assistant Audit Officer</li>
+                            <li>Assistant Accounts Officer</li>
+                            <li>Assistant Section Officer</li>
+                            <li>Assistant</li>
+                            <li>Inspector of Income Tax</li>
+                            <li>Inspector (Central Excise)</li>
+                            <li>Assistant Enforcement Officer</li>
+                            <li>Sub Inspector</li>
+                            <li>Inspector</li>
+                            <li>Junior Statistical Officer</li>
+                            <li>Statistical Investigator Grade-II</li>
+                            <li>Auditor</li>
+                            <li>Accountant/ Junior Accountant</li>
+                            <li>Senior Secretariat Assistant/ Upper Division Clerks </li>
+                            <li>Tax Assistant</li>
+                            <li>Upper Division Clerks</li>
+                        </ul>
+
+                        <h2>SSC CGL Eligibility</h2>
+                        <p>Those candidates writing the SSC CGL Exam this year must thoroughly understand the
+                            eligibility
+                            criteria. The SSC CGL Eligibility criteria are as follows:</p>
+
+                        <ol>
+                            <li>Nationality: Must be a citizen of India, Nepal or Bhutan.
+                                Migrated candidates should have necessary citizenship documents from Govt. of India.
+                            </li>
+                            <li>Age Limit: Candidates must be between the age group of 18 years to 32 years.</li>
+                            <li>Qualifications:Bachelor’s degree from a recognized University/Institute</li>
+                            <li>Physical Fitness– Only for candidates for certain posts like Inspector, Sub- Inspector,
+                                etc.</li>
+                        </ol>
+                        <p class="px-3">Candidates can check the detailed <a href="">SSC CPO Eligibility Criteria</a> by
+                            referring to
+                            this linked
+                            article.</p>
+
+                        <h2>SSC CGL Exam Pattern</h2>
+                        <p class="px-3">The Staff Selection Commission conducts the CGL Exam in 4 different stages
+                            called Tiers. The
+                            last Tier Exam is only for certain posts and for candidates who have qualified certain
+                            papers.</p>
+
+                        <p class="px-3">The SSC CGL Exam pattern is as follows:</p>
+
+                        <table class="table">
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th scope="col">Tier</th>
+                                    <th scope="col">SSC CGL Exam Pattern</th>
+                                    <th scope="col">Duration</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td scope="row">Tier 1</td>
+                                    <td>Online Multiple choice questions</td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">Tier 2</td>
+                                    <td>Online Multiple choice-based</td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">Tier 3</td>
+                                    <td>Offline Subjective</td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">Tier 4</td>
+                                    <td>Skill Test</td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+
+                        <h2>SSC CGL Selection Process – Important Pointers</h2>
+
+                        <ol>
+                            <li>Aspirants of the SSC CGL exam will be assigned roll numbers and admit cards to
+                                appear
+                                for the Tier I exam.</li>
+                            <li>Candidates will be shortlisted category-wise to appear for Tier II and Tier III, based
+                                on
+                                the
+                                marks scored in SSC CGL Tier I.</li>
+                            <li>All candidates will have to appear for Paper I and Paper II in Tier-II exam. However,
+                                only
+                                specific candidates will have to appear for Paper III and Paper IV of the Tier II exam
+                                in
+                                SSC
+                                CGL exam.</li>
+                            <li>Separate cutoff will be fixed for Paper I, Paper-II, Paper III and Paper IV of Tier II
+                                exam.
+                            </li>
+                            <li>In SSC CGL exam, there will be minimum qualifying marks in each Tier and all the
+                                papers.
+                                The minimum qualifying marks in SSC CGL Tier I, Tier II(each paper), Tier III are as
+                                follows:</li>
+                        </ol>
+
+                        <ul>
+                            <li>Unreserved Categories – 30 %</li>
+                            <li>EWS/OBC Categories – 25%</li>
+                            <li>Other Categories – 20%</li>
+                        </ul>
+                        <p class="px-3">Before preparing for the SSC CGL Exam, candidates must check the
+                            official notification to get early information on any upcoming changes in the Exam pattern.
+                        </p>
+
+                        <h2>SSC CGL Syllabus</h2>
+                        <p class="px-3">The SSC CGL syllabus covers various topics related to the 10th and 12th grade.
+                            The syllabus for
+                            the CGL Exam varies with respect to the Tiers.</p>
+
+                        <p class="px-3">The SSC CGL exam syllabus is as follows:</p>
+
+                        <p class="px-3"><span class="fw-bold">Tier I</span>:- Topics related to General Intelligence &
+                            Reasoning, General Awareness,
+                            Quantitative
+                            Aptitude, English Language & comprehension.</p>
+
+                        <p class="px-3"><span class="fw-bold">Tier II</span>:- Topics related to Quantitative Aptitude,
+                            English Language &
+                            Comprehension, Statistics,
+                            General Studies (Finance & Economics)</p>
+
+                        <p class="px-3"><span class="fw-bold">Tier III</span>:- This exam is a descriptive exam to
+                            evaluate a candidate’s Language
+                            skills in
+                            Hindi/English. This is only for candidates appearing for Statistical Investigator (Grade II)
+                            &
+                            Compiler.</p>
+
+                        <p class="px-3"><span class="fw-bold">Tier IV</span>:-This test comprises Data Entry Speed Test
+                            & Computer Proficiency Test.
+                            This exam is for
+                            candidates appearing for specific posts under the Government of India.</p>
+
+
+
+
+
+
+
+
+                        <h2>SSC CGL Exam Pattern</h2>
+                        <p>The Staff Selection Commission conducts the CGL Exam in 4 different stages called Tiers.
+                            The
+                            last Tier Exam is only for certain posts and for candidates who have qualified certain
+                            papers.</p>
+
+                        <p> The SSC cgl exam pattern is decided by the commission itself. Any changes in the exam
+                            pattern
+                            are intimated to candidates through official notice.</p>
+
+
+
+                        <p>The <span class="fw-bold">SSC CGL Exam pattern</span> is as follows:</p>
+
+                        <table class="table">
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th scope="col">
+                                        Tier</th>
+                                    <th scope="col">SSC CGL Exam Pattern</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td scope="row">Tier 1</td>
+                                    <td>Online Multiple choice questions</td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">Tier 2 </td>
+                                    <td>Online Multiple choice-based</td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">Tier 3</td>
+                                    <td>Offline Subjective</td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">Tier 4</td>
+                                    <td>Skill Test</td>
+
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <h2>SSC CGL Selection Process – Important Pointers</h2>
+                        <ol>
+
+                            <li>Aspirants of the SSC CGL exam will be assigned roll numbers and admit cards
+                                to
+                                appear
+                                for the Tier I exam.</li>
+                            <li> Candidates will be shortlisted category-wise to appear for Tier II and Tier III,
+                                based
+                                on
+                                the
+                                marks scored in SSC CGL Tier I.</li>
+                            <li>All candidates will have to appear for Paper I and Paper II in Tier-II exam.
+                                However,
+                                only
+                                specific candidates will have to appear for Paper III and Paper IV of the Tier II
+                                exam
+                                in
+                                SSC
+                                CGL exam.</li>
+                            <li>Separate cutoff will be fixed for Paper I, Paper-II, Paper III and Paper IV of Tier
+                                II
+                                exam.</li>
+                            <p>In SSC CGL exam, there will be minimum qualifying marks in each Tier and all
+                                the
+                                papers.
+                                The minimum qualifying marks in SSC CGL Tier I, Tier II(each paper), Tier III are as
+                                follows:</p>
+                            <ul>
+                                <li><small>Unreserved Categories – 30 %</small></li>
+                                <li><small>EWS/OBC Categories – 25%</small></li>
+                                <li><small>Other Categories – 20%</small></li>
+                            </ul>
+                            <p>Before preparing for the SSC CGL Exam, candidates must check the official
+                                notification
+                                to get early information on any upcoming changes in the Exam pattern.</p>
+                        </ol>
+
+                        <h2>SSC CGL Syllabus</h2>
+                        <p>The SSC CGL syllabus covers various topics related to the 10th and 12th grade. The
+                            syllabus
+                            for
+                            the CGL Exam varies with respect to the Tiers.</p>
+
+                        <p class="fw-bold">The SSC CGL exam syllabus is as follows:</p>
+
+                        <p><span class="fw-bold">Tier I:-</span> Topics related to General Intelligence & Reasoning,
+                            General Awareness,
+                            Quantitative
+                            Aptitude, English Language & comprehension.</p>
+
+                        <p><span class="fw-bold">Tier II:-</span> Topics related to Quantitative Aptitude, English
+                            Language & Comprehension,
+                            Statistics,
+                            General Studies (Finance & Economics)</p>
+
+                        <p><span class="fw-bold">Tier III:-</span> This exam is a descriptive exam to evaluate a
+                            candidate’s Language
+                            skills in
+                            Hindi/English. This is only for candidates appearing for Statistical Investigator (Grade
+                            II)
+                            &
+                            Compiler.</p>
+
+                        <p><span class="fw-bold">Tier IV:-</span>This test comprises Data Entry Speed Test &
+                            Computer
+                            Proficiency Test.
+                            This exam is for
+                            candidates appearing for specific posts under the Government of India.</p>
+
+                        <!-- applying online -->
+                        <h2>SSC CGL Apply Online</h2>
+                        <p>Candidates willing to appear for the exam are required to
+                            fill
+                            the
+                            application form on the SSC official website.</p>
+
+                        <p>The steps for the SSC CGL Registration is as follows:</p>
+
+                        <p>Step 1- Go to the official website of SSC</p>
+
+                        <p>Step 2- Register using your mobile number, email id</p>
+
+                        <p>Step 3- Login using your Registration ID that will be generated once you initiate your
+                            SSC
+                            CGL
+                            registration using your mail id, phone number</p>
+
+                        <p>Step 4- Fill all the details that would be asked</p>
+
+                        <p>Step 5 – Upload the necessary documents like photograph, signature.</p>
+
+                        <p>Step 6- Review the application form once again to check for any mistakes</p>
+
+                        <p>Step 7- Fill the payment details for the application fee. The SSC CGL registration
+                            process
+                            will
+                            be completed. Save the soft copy of the submission completion message.</p>
+
+                        <p>For more details on the SSC CGL application process, refer to the SSC CGL official
+                            notification.</p>
+
+                        <h3>SSC CGL Preparation</h3>
+                        <p>SSC CGL Exam preparation needs a lot of smart work to score well. Candidates should be
+                            always
+                            updated on the exam pattern and syllabus of SSC Combined Graduate Level Examination.</p>
+
+                        <p>Candidates can check SSC CGL Previous Year Question Paper for a thorough understanding of
+                            the
+                            level and scope of SSC CGL exam and for revision of their learnings.</p>
+
+                        <p>Aspirants can check the following links for comprehensive preparation-</p>
+
+                        <ul>
+                            <li><a href="">Static GK</a></li>
+                            <li><a href="">Current Affairs</a></li>
+                            <li><a href="">SSC General Awareness</a></li>
+                        </ul>
+                        <p>The right set of SSC CGL Books and study material is also necessary to have a clear
+                            concept
+                            of
+                            the topics covered in the Exam.</p>
+
+                        <h2>SSC CGL Admit Card</h2>
+                        <p>SSC CGL Exam Admit Cards/ Admission Certificates (ACs) will be uploaded on the website of
+                            the
+                            concerned Regional/ Sub-Regional Office of the Commission. The facility for the download
+                            of
+                            Admit Cards will be available at least one week before the examination on the website of
+                            concerned Regional/ Sub Regional Office.</p>
+
+                        <p>Candidates are advised to visit the website of the concerned Regional Office and SSC HQ
+                            regularly for updates and information about the examination.</p>
+
+                        <p>The commission will release the SSC CGL 2023-24 Admit Card for all the Tiers through an
+                            official
+                            notification.</p>
+
+                        <p>The Admit card for SSC CGL Exam Tier I will tentatively release 15 days before the
+                            exam
+                            date.</p>
+
+                        <h3>Steps to download SSC CGL Admit Card:</h3>
+
+                        <ol>
+                            <li>Visit the SSC CGL official website</li>
+                            <li>Click on the link ‘SSC CGL Admit Card</li>
+                            <li>Enter the registration number and password to log in.</li>
+                            <li>Admit card will be displayed on the screen.</li>
+                            <li>Download it and take the printout for further use.</li>
+                            <li>Check SSC CGL Admit Card page for further details.</li>
+                        </ol>
+
+                        <h2>SSC CGL Exam Centres</h2>
+                        <p>Candidates who aspire for the CGL exam should always check this important detail
+                            properly. A
+                            candidate must indicate the Centre(s) in the online Application Form in which he/ she
+                            desires to
+                            take the examination.</p>
+
+                        <p>The exam centres allotted to candidates for the CGL exam are notified with the release of
+                            the
+                            Admit card.</p>
+
+                        <p>The exam centres for the SSC CGL exam are:</p>
+                        <ul>
+                            <li><span class="fw-bold">Central Region (CR)-</span> Bihar and Uttar Pradesh</li>
+                            <li><span class="fw-bold">Eastern Region (ER)–</span> Andaman & Nicobar Islands,
+                                Jharkhand,
+                                Odisha, Sikkim and West
+                                Bengal</li>
+                            <li><span class="fw-bold">Karnataka, Kerala Region (KKR)-</span> Lakshadweep, Karnataka
+                                and
+                                Kerala</li>
+                            <li><span class="fw-bold">Madhya Pradesh Sub-Region (MPR)-</span> Chhattisgarh and
+                                Madhya
+                                Pradesh</li>
+                            <li><span class="fw-bold">North Eastern Region (NER)-</span> Arunachal Pradesh, Assam,
+                                Manipur, Meghalaya, Mizoram,
+                                Nagaland and Tripura</li>
+                            <li><span class="fw-bold">Northern Region (NR)-</span> NCT of Delhi, Rajasthan and
+                                Uttarakhand</li>
+                            <li><span class="fw-bold">North Western Sub-Region (NWR)-</span> Chandigarh, Haryana,
+                                Himachal Pradesh, Jammu and Kashmir
+                                and Punjab</li>
+                            <li><span class="fw-bold">Southern Region (SR)-</span> Andhra Pradesh, Puducherry, Tamil
+                                Nadu, and Telangana.</li>
+                            <li><span class="fw-bold">Western Region (WR)-</span> Dadra and Nagar Haveli, Daman and
+                                Diu,
+                                Goa, Gujarat, and
+                                Maharashtra</li>
+                        </ul>
+
+
+                        <h2>SSC CGL Important Details</h2>
+                        <table class="table">
+                            <thead class="thead-dark">
+                                <tr>
+                                    <td scope="col">Name of the Exam</td>
+                                    <td scope="col">Staff Selection Commission Combined Graduate Level – SSC CGL
+                                    </td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td scope="row">Conducting Body</td>
+                                    <td>Staff Selection Commission</td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">Official Website </td>
+                                    <td><a href="">ssc.nic.in</a></td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">Exam Type</td>
+                                    <td>National Level Exam</td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">Mode of SSC CGL Application</td>
+                                    <td>Online</td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">Mode of SSC CGL Exam</td>
+                                    <td>Online</td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">CGL Eligibility</td>
+                                    <td>
+                                        <p>Indian citizenship</p>
+                                        <p>Bachelor’s Degree in any discipline</p>
+                                    </td>
+                                </tr>
+
+
+                                <tr>
+                                    <td>Duration of CGL exam</td>
+                                    <td>
+                                        <p>Tier I – 60 minutes</p>
+                                        <p>Tier II – 120 minutes</p>
+                                        <p>Tier III – 60 minutes</p>
+                                        <p>Tier IV – 45 minutes </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Sections in CGL exam 2023</td>
+                                    <td>
+                                        <p>Tier I – 4 Sections</p>
+                                        <p>Tier II -4 Papers</p>
+                                    </td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+
+                        <p>Keep checking the page for updated information related to SSC CGL Exam 2024-2025.</p>
+
+                    </div>
+                    <!-- cgl end here -->
+
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Courses with tab wise End -->
+
+
+    <!-- Testimonial Start -->
+    <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="text-center">
+                <h6 class="section-title bg-white text-center text-primary px-3">Testimonial</h6>
+                <h1 class="mb-5">Our Students Say!</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel position-relative">
+                <div class="testimonial-item text-center">
+                    <img class="border rounded-circle p-2 mx-auto mb-3" src="img/testimonial-1.jpg"
+                        style="width: 80px; height: 80px;">
+                    <h5 class="mb-0">Client Name</h5>
+                    <p>Profession</p>
+                    <div class="testimonial-text bg-light text-center p-4">
+                        <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et
+                            eos. Clita erat ipsum et lorem et sit.</p>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <img class="border rounded-circle p-2 mx-auto mb-3" src="img/testimonial-2.jpg"
+                        style="width: 80px; height: 80px;">
+                    <h5 class="mb-0">Client Name</h5>
+                    <p>Profession</p>
+                    <div class="testimonial-text bg-light text-center p-4">
+                        <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et
+                            eos. Clita erat ipsum et lorem et sit.</p>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <img class="border rounded-circle p-2 mx-auto mb-3" src="img/testimonial-3.jpg"
+                        style="width: 80px; height: 80px;">
+                    <h5 class="mb-0">Client Name</h5>
+                    <p>Profession</p>
+                    <div class="testimonial-text bg-light text-center p-4">
+                        <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et
+                            eos. Clita erat ipsum et lorem et sit.</p>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <img class="border rounded-circle p-2 mx-auto mb-3" src="img/testimonial-4.jpg"
+                        style="width: 80px; height: 80px;">
+                    <h5 class="mb-0">Client Name</h5>
+                    <p>Profession</p>
+                    <div class="testimonial-text bg-light text-center p-4">
+                        <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et
+                            eos. Clita erat ipsum et lorem et sit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Quick Link</h4>
+                    <a class="btn btn-link" href="">About Us</a>
+                    <a class="btn btn-link" href="">Contact Us</a>
+                    <a class="btn btn-link" href="">Privacy Policy</a>
+                    <a class="btn btn-link" href="">Terms & Condition</a>
+                    <a class="btn btn-link" href="">FAQs & Help</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Contact</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Gallery</h4>
+                    <div class="row g-2 pt-2">
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-1.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-2.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-3.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-2.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-3.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-1.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Newsletter</h4>
+                    <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                        <button type="button"
+                            class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="#">Your Site Name</a>, All Right Reserved.
+
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a><br><br>
+                        Distributed By <a class="border-bottom" href="https://themewagon.com">ThemeWagon</a>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <div class="footer-menu">
+                            <a href="">Home</a>
+                            <a href="">Cookies</a>
+                            <a href="">Help</a>
+                            <a href="">FQAs</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
