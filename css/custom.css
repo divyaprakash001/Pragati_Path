@@ -1,16 +1,100 @@
-.whatsapp-icon {
-  /* min-height: 50px; */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  /* height: 200px; */
-  position: fixed;
-  right: 50px;
-  top: 75%;
-  z-index: 999999;
-  background-color: transparent;
+.img_container {
+  width: 100%;
+  height: 205px;
+  overflow: hidden;
+  position: relative;
 }
 
+.img_container_course {
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+  position: relative;
+}
+
+.img-container_course img,
+.img_container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+
+/* *************************************** */
+.whatsapp-container {
+  position: fixed;
+  bottom: 130px;
+  right: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  z-index: 999999;
+}
+
+.whatsapp-icon {
+  position: relative;
+  z-index: 1;
+  text-decoration: none;
+}
+
+.animation-background {
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  border-radius: 50%;
+  background-color: rgba(32, 243, 180, 0.3);
+  animation: pulse 2s infinite;
+  z-index: 0;
+}
+
+.animation-background_1 {
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  border-radius: 50%;
+  background-color: rgba(32, 243, 180, 0.3);
+  animation: pulse_1 2s infinite;
+  z-index: 0;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  50% {
+    transform: scale(1.5);
+    opacity: 0.5;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes pulse_1 {
+  0% {
+    transform: scale3d(1, 1, 1);
+    opacity: 1;
+  }
+
+  50% {
+    transform: scale3d(1.3, 1.3, 1.3);
+    opacity: 0.5;
+  }
+
+  100% {
+    transform: scale3d(1, 1, 1);
+    opacity: 1;
+  }
+}
+
+/* ******************************************** */
 i {
   margin-top: 8px;
 }
@@ -39,6 +123,14 @@ i {
     font-size: 1rem !important;
     /* Small screens and down */
   }
+
+  .img_container {
+    height: 300px;
+  }
+
+  .gayab {
+    display: none;
+  }
 }
 
 @media (min-width: 576px) {
@@ -50,6 +142,14 @@ i {
   .p-responsive {
     font-size: 1.25rem !important;
     /* Small screens and up */
+  }
+
+  .img_container {
+    height: 300px;
+  }
+
+  .gayab {
+    display: none;
   }
 }
 
@@ -63,6 +163,14 @@ i {
     font-size: 1.25rem !important;
     /* Medium screens and up */
   }
+
+  .img_container {
+    height: 300px;
+  }
+
+  .gayab {
+    display: none;
+  }
 }
 
 @media (min-width: 992px) {
@@ -75,6 +183,12 @@ i {
     font-size: 1.5rem !important;
     /* Large screens and up */
   }
+
+  .gayab {
+    display: block;
+  }
+
+
 }
 
 @media (min-width: 1200px) {
@@ -84,7 +198,11 @@ i {
   }
 
   .p-responsive {
-    font-size: 1.75rem !important;
+    font-size: 1.5rem !important;
     /* Extra-large screens and up */
+  }
+
+  .gayab {
+    display: block;
   }
 }

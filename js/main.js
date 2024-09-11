@@ -10,8 +10,8 @@
         }, 1);
     };
     spinner();
-    
-    
+
+
     // Initiate the wowjs
     new WOW().init();
 
@@ -24,36 +24,36 @@
             $('.sticky-top').css('top', '-100px');
         }
     });
-    
-    
+
+
     // Dropdown on mouse hover
     const $dropdown = $(".dropdown");
     const $dropdownToggle = $(".dropdown-toggle");
     const $dropdownMenu = $(".dropdown-menu");
     const showClass = "show";
-    
-    $(window).on("load resize", function() {
+
+    $(window).on("load resize", function () {
         if (this.matchMedia("(min-width: 992px)").matches) {
             $dropdown.hover(
-            function() {
-                const $this = $(this);
-                $this.addClass(showClass);
-                $this.find($dropdownToggle).attr("aria-expanded", "true");
-                $this.find($dropdownMenu).addClass(showClass);
-            },
-            function() {
-                const $this = $(this);
-                $this.removeClass(showClass);
-                $this.find($dropdownToggle).attr("aria-expanded", "false");
-                $this.find($dropdownMenu).removeClass(showClass);
-            }
+                function () {
+                    const $this = $(this);
+                    $this.addClass(showClass);
+                    $this.find($dropdownToggle).attr("aria-expanded", "true");
+                    $this.find($dropdownMenu).addClass(showClass);
+                },
+                function () {
+                    const $this = $(this);
+                    $this.removeClass(showClass);
+                    $this.find($dropdownToggle).attr("aria-expanded", "false");
+                    $this.find($dropdownMenu).removeClass(showClass);
+                }
             );
         } else {
             $dropdown.off("mouseenter mouseleave");
         }
     });
-    
-    
+
+
     // Back to top button
     $(window).scroll(function () {
         if ($(this).scrollTop() > 300) {
@@ -63,7 +63,7 @@
         }
     });
     $('.back-to-top').click(function () {
-        $('html, body').animate({scrollTop: 0}, 1500, 'easeInOutExpo');
+        $('html, body').animate({ scrollTop: 0 }, 1500, 'easeInOutExpo');
         return false;
     });
 
@@ -75,8 +75,8 @@
         items: 1,
         dots: false,
         loop: true,
-        nav : true,
-        navText : [
+        nav: true,
+        navText: [
             '<i class="bi bi-chevron-left"></i>',
             '<i class="bi bi-chevron-right"></i>'
         ]
@@ -91,19 +91,55 @@
         margin: 24,
         dots: true,
         loop: true,
-        nav : false,
+        nav: false,
         responsive: {
-            0:{
-                items:1
+            0: {
+                items: 1
             },
-            768:{
-                items:2
+            768: {
+                items: 2
             },
-            992:{
-                items:3
+            992: {
+                items: 3
             }
         }
     });
-    
+
 })(jQuery);
+
+
+document.addEventListener('DOMContentLoaded', function () {
+    var path = window.location.pathname.split("/").pop();
+    var links = document.querySelectorAll('.nav-item');
+
+    links.forEach(function (link) {
+        var href = link.getAttribute('href');
+        if (path === href) {
+            link.classList.add('active');
+        }
+    });
+});
+
+
+
+// ******************************
+$(document).ready(function () {
+    $('#address-link').on('click', function () {
+        var latitude = 25.61532;
+        var longitude = 85.12051;
+        var googleMapsUrl = `https://www.google.com/maps?q=${latitude},${longitude}`;
+        window.open(googleMapsUrl, '_blank');
+    });
+});
+
+
+// *******************************
+let call_btns = document.querySelectorAll(".call_btn")
+call_btns.forEach((call_btn) => {
+    call_btn.addEventListener('click', function () {
+        const phoneNumber = '++91 9661662226';
+        window.location.href = `tel:${phoneNumber}`;
+    })
+})
+
 
