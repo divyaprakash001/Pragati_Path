@@ -1,3 +1,50 @@
+/* Positioning carousel navigation buttons */
+/* .owl-nav {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  width: 100%;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: space-between;
+  pointer-events: none;
+
+} */
+
+.owl-prev,
+.owl-next {
+  pointer-events: auto;
+  background-color: #2BC5D4 !important;
+  border: none;
+  color: #fff;
+  font-size: 24px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+
+/* .owl-prev {
+  left: 20px;
+}
+
+.owl-next {
+  right: 20px;
+} */
+
+.black {
+  width: 500px;
+  height: 500px;
+  background-color: black;
+  opacity: .3;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 .img_container {
   width: 100%;
   height: 205px;
@@ -29,8 +76,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
   z-index: 999999;
 }
 
@@ -124,6 +171,10 @@ i {
     /* Small screens and down */
   }
 
+  .call_btn {
+    font-size: 1rem !important;
+  }
+
   .img_container {
     height: 300px;
   }
@@ -142,6 +193,10 @@ i {
   .p-responsive {
     font-size: 1.25rem !important;
     /* Small screens and up */
+  }
+
+  .call_btn {
+    font-size: 1rem !important;
   }
 
   .img_container {
@@ -164,6 +219,10 @@ i {
     /* Medium screens and up */
   }
 
+  .call_btn {
+    font-size: 1rem !important;
+  }
+
   .img_container {
     height: 300px;
   }
@@ -177,6 +236,10 @@ i {
   .text-responsive {
     font-size: 2rem !important;
     /* Large screens and up */
+  }
+
+  .call_btn {
+    font-size: 1rem !important;
   }
 
   .p-responsive {
@@ -195,6 +258,10 @@ i {
   .text-responsive {
     font-size: 2.5rem !important;
     /* Extra-large screens and up */
+  }
+
+  .call_btn {
+    font-size: 1rem !important;
   }
 
   .p-responsive {
