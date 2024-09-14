@@ -50,6 +50,7 @@
   height: 205px;
   overflow: hidden;
   position: relative;
+  box-shadow: rgba(222, 14, 14, 0.15) 1.95px 1.95px 2.6px;
 }
 
 .img_container_course {
@@ -146,6 +147,16 @@ i {
   margin-top: 8px;
 }
 
+.course_border {
+  /* border: 1px solid #06BBCC; */
+  padding-bottom: 20px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.course_category {
+  /* border: 1px solid #06BBCC; */
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
 
 
 .text-responsive {
