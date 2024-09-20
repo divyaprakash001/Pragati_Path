@@ -1,8 +1,13 @@
 /********** Template CSS **********/
 :root {
-    --primary: #06BBCC;
-    --light: #F0FBFC;
+    --primary: #2A85CA;
+    --light: #edf6fc;
     --dark: #181d38;
+    --main-color: #2A85CA;
+}
+
+.text-primary {
+    color: #2A85CA !important;
 }
 
 .fw-medium {
@@ -47,6 +52,10 @@
 .btn.btn-primary,
 .btn.btn-secondary {
     color: #FFFFFF;
+}
+
+.btn-primary {
+    background-color: #2A85CA !important;
 }
 
 .btn-square {
@@ -97,7 +106,7 @@
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-    color: var(--primary);
+    color: var(--main-color);
 }
 
 @media (max-width: 991.98px) {
@@ -190,10 +199,12 @@
     transition: .5s;
 }
 
+
+
 .header-carousel .owl-nav .owl-prev:hover,
 .header-carousel .owl-nav .owl-next:hover {
-    background: var(--primary);
-    border-color: var(--primary);
+    background: var(--main-color);
+    border-color: var(--main-color);
 }
 
 .page-header {
@@ -268,7 +279,7 @@
     height: 2px;
     top: 4px;
     left: -40px;
-    background: var(--primary);
+    background: var(--main-color);
     z-index: -1;
 }
 
@@ -279,7 +290,7 @@
     height: 2px;
     bottom: 5px;
     left: -60px;
-    background: var(--primary);
+    background: var(--main-color);
     z-index: -1;
 }
 
@@ -302,7 +313,7 @@
 
 .service-item:hover {
     margin-top: -10px;
-    background: var(--primary);
+    background: var(--main-color);
 }
 
 .service-item * {
@@ -381,7 +392,7 @@
 }
 
 .testimonial-carousel .owl-item.center .testimonial-text {
-    background: var(--primary) !important;
+    background: var(--main-color) !important;
 }
 
 .testimonial-carousel .owl-item.center .testimonial-text * {
@@ -406,8 +417,8 @@
 }
 
 .testimonial-carousel .owl-dot.active {
-    background: var(--primary);
-    border-color: var(--primary);
+    background: var(--main-color);
+    border-color: var(--main-color);
 }
 
 
@@ -427,7 +438,7 @@
 }
 
 .footer .btn.btn-social:hover {
-    color: var(--primary);
+    color: var(--main-color);
 }
 
 .footer .btn.btn-link {

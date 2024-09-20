@@ -108,6 +108,7 @@
 })(jQuery);
 
 
+// adding active class on current nav item
 document.addEventListener('DOMContentLoaded', function () {
     var path = window.location.pathname.split("/").pop();
     var links = document.querySelectorAll('.nav-item');
@@ -137,7 +138,7 @@ $(document).ready(function () {
 let call_btns = document.querySelectorAll(".call_btn")
 call_btns.forEach((call_btn) => {
     call_btn.addEventListener('click', function () {
-        const phoneNumber = '++91 9661662226';
+        const phoneNumber = '+91 9661662226';
         window.location.href = `tel:${phoneNumber}`;
     })
 })

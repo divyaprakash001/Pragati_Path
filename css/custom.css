@@ -1,20 +1,11 @@
-/* Positioning carousel navigation buttons */
-/* .owl-nav {
-  position: absolute;
-  top: 50%;
-  right: 10px;
-  width: 100%;
-  transform: translateY(-50%);
-  display: flex;
-  justify-content: space-between;
-  pointer-events: none;
-
-} */
+:root {
+  --main-color: #2A85CA;
+}
 
 .owl-prev,
 .owl-next {
   pointer-events: auto;
-  background-color: #2BC5D4 !important;
+  background-color: var(--main-color) !important;
   border: none;
   color: #fff;
   font-size: 24px;
@@ -27,22 +18,12 @@
   z-index: 10;
 }
 
-/* .owl-prev {
-  left: 20px;
+.text_color {
+  color: #2A85CA !important;
 }
 
-.owl-next {
-  right: 20px;
-} */
-
-.black {
-  width: 500px;
-  height: 500px;
-  background-color: black;
-  opacity: .3;
-  position: absolute;
-  top: 0;
-  left: 0;
+.bg_color {
+  background-color: #2A85CA !important;
 }
 
 .img_container {
@@ -55,17 +36,39 @@
 
 .img_container_course {
   width: 100%;
+  overflow: hidden;
+  position: relative;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.img_container_special {
+  width: 100%;
   height: 250px;
   overflow: hidden;
   position: relative;
+  box-shadow: rgba(222, 14, 14, 0.15) 1.95px 1.95px 2.6px;
 }
 
 .img-container_course img,
-.img_container img {
+.img_container img,
+.img_container_special img {
+  width: 100%;
+  height: 100%;
+  object-position: center;
+  object-fit: cover;
+}
+
+.img-box {
+  width: 100%;
+  height: 200px;
+  position: relative;
+  border: 2px solid #2A85CA;
+}
+
+.img-box img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center;
 }
 
 
@@ -85,62 +88,38 @@
 .whatsapp-icon {
   position: relative;
   z-index: 1;
+  animation: pulse 2s infinite;
+  margin-bottom: 3px;
   text-decoration: none;
 }
 
 .animation-background {
   position: absolute;
-  width: 80%;
-  height: 80%;
-  border-radius: 50%;
-  background-color: rgba(32, 243, 180, 0.3);
-  animation: pulse 2s infinite;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background-color: #fff;
   z-index: 0;
+
 }
 
-.animation-background_1 {
-  position: absolute;
-  width: 80%;
-  height: 80%;
-  border-radius: 50%;
-  background-color: rgba(32, 243, 180, 0.3);
-  animation: pulse_1 2s infinite;
-  z-index: 0;
-}
+
 
 @keyframes pulse {
   0% {
     transform: scale(1);
-    opacity: 1;
   }
 
   50% {
-    transform: scale(1.5);
-    opacity: 0.5;
+    transform: scale(1.3);
   }
 
   100% {
     transform: scale(1);
-    opacity: 1;
   }
 }
 
-@keyframes pulse_1 {
-  0% {
-    transform: scale3d(1, 1, 1);
-    opacity: 1;
-  }
 
-  50% {
-    transform: scale3d(1.3, 1.3, 1.3);
-    opacity: 0.5;
-  }
-
-  100% {
-    transform: scale3d(1, 1, 1);
-    opacity: 1;
-  }
-}
 
 /* ******************************************** */
 i {
@@ -148,13 +127,11 @@ i {
 }
 
 .course_border {
-  /* border: 1px solid #06BBCC; */
   padding-bottom: 20px;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
 .course_category {
-  /* border: 1px solid #06BBCC; */
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
@@ -174,12 +151,10 @@ i {
 @media (max-width: 575px) {
   .text-responsive {
     font-size: 1rem !important;
-    /* Small screens and down */
   }
 
   .p-responsive {
     font-size: 1rem !important;
-    /* Small screens and down */
   }
 
   .call_btn {
@@ -198,12 +173,10 @@ i {
 @media (min-width: 576px) {
   .text-responsive {
     font-size: 1.5rem !important;
-    /* Small screens and up */
   }
 
   .p-responsive {
     font-size: 1.25rem !important;
-    /* Small screens and up */
   }
 
   .call_btn {
@@ -222,12 +195,10 @@ i {
 @media (min-width: 768px) {
   .text-responsive {
     font-size: 1.75rem !important;
-    /* Medium screens and up */
   }
 
   .p-responsive {
     font-size: 1.25rem !important;
-    /* Medium screens and up */
   }
 
   .call_btn {
@@ -246,7 +217,6 @@ i {
 @media (min-width: 992px) {
   .text-responsive {
     font-size: 2rem !important;
-    /* Large screens and up */
   }
 
   .call_btn {
@@ -255,20 +225,16 @@ i {
 
   .p-responsive {
     font-size: 1.5rem !important;
-    /* Large screens and up */
   }
 
   .gayab {
     display: block;
   }
-
-
 }
 
 @media (min-width: 1200px) {
   .text-responsive {
     font-size: 2.5rem !important;
-    /* Extra-large screens and up */
   }
 
   .call_btn {
@@ -277,7 +243,6 @@ i {
 
   .p-responsive {
     font-size: 1.5rem !important;
-    /* Extra-large screens and up */
   }
 
   .gayab {
